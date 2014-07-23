@@ -1,0 +1,190 @@
+<!-- INCLUDE overall_header.html -->
+
+<h2>Transport Requests Within Specified Distance of Airport</h2>
+
+<div class="panel">
+   <div class="inner"><span class="corners-top"><span></span></span>
+
+   <div class="pnpfaq">
+      <p>
+<!-- PHP -->
+
+function xmlspecialchars($text) {
+   return str_replace('-' , ' ' , str_replace('&#039;', '&apos;', htmlspecialchars($text, ENT_QUOTES)));
+}
+function distance($lat1, $lon1, $lat2, $lon2) { 
+
+  $theta = $lon1 - $lon2; 
+  $dist = sin(deg2rad($lat1)) * sin(deg2rad($lat2)) +  cos(deg2rad($lat1)) * cos(deg2rad($lat2)) * cos(deg2rad($theta)); 
+  $dist = acos($dist); 
+  $dist = rad2deg($dist); 
+  $miles = $dist * 60;
+  return ($miles); 
+}
+
+include ( "../forum/config.php");
+
+$username=$dbuser;
+$password=$dbpasswd;
+$database=$dbname;
+$server=$dbhost;
+$dbg=$_GET[dbg];
+$color=$_GET[color];
+$con = mysql_connect($dbhost,$dbuser,$dbpasswd)or die( "Unable to connect to database");			@mysql_select_db($dbname) or die( "Unable to select database");
+$my_airport=$_POST["my_airport"];
+$my_distance=$_POST["my_distance"];
+/*
+$my_airport="60M";
+$my_distance=100;
+*/
+$d2=$my_distance * $my_distance;
+$query = 'select apt_name , state , lat , lon from airports where apt_id = "' . strtoupper($my_airport) . '"';
+   $result=mysql_query($query);
+   $num = 0;
+   if ( $result ) $num=mysql_numrows($result);
+   if ($num > 0) { 
+                   $myapt_name = mysql_result($result,0,"apt_name");
+                   $mystate = mysql_result($result,0,"state");
+                   $mylat = mysql_result($result,0,"lat");
+                   $mylon = mysql_result($result,0,"lon");
+				   }
+   else {
+$query = 'select apt_name , state , lat , lon from airports where apt_id = "K' . strtoupper($my_airport) . '"';
+   $result=mysql_query($query);
+   $num = 0;
+   if ( $result ) $num=mysql_numrows($result);
+   if ($num > 0) { 
+                   $myapt_name = mysql_result($result,0,"apt_name");
+                   $mystate = mysql_result($result,0,"state");
+                   $mylat = mysql_result($result,0,"lat");
+                   $mylon = mysql_result($result,0,"lon");
+				   }
+        }
+if ($num == 0)
+{
+echo '<form action="phpbb-local-rescues.php" method="post">
+Airport ID <input type=text name=my_airport value="' . $my_airport . '"><br>
+Distance <input type=text name=my_distance value="100"><br>
+<input type=submit>';
+}
+else
+{
+echo '<body>
+List Transports starting, ending, or passing within ' . $my_distance . 'NM of '
+. $myapt_name .
+'<table><tr><th>Request</th><th>Description</th></tr>';
+
+$query =   ' select '
+         . ' phpbb_posts.post_subject , '
+         . ' phpbb_posts.post_id , '
+         . ' phpbb_posts.post_text , ' 
+         . ' phpbb_topics.topic_id , '
+         . ' phpbb_topics.topic_title , '
+         . ' phpbb_topics.forum_id,  '
+         . ' phpbb_topics.topic_time, '
+         . ' phpbb_topics.pnp_sendzip, '
+         . ' phpbb_topics.pnp_reczip '
+ 
+         . ' from phpbb_topics , '
+         . ' phpbb_posts '
+         . ' where phpbb_topics.forum_id = 5 and ' 
+         . ' phpbb_posts.post_id = phpbb_topics.topic_first_post_id and '
+         . ' unix_timestamp() - phpbb_topics.topic_last_post_time < 86400 * 7 * 3 and '
+         . ' phpbb_topics.pnp_sendzip > "00000" and phpbb_topics.pnp_reczip > "00000" '
+         . ' ORDER BY phpbb_topics.topic_time DESC';
+$result=mysql_query($query) or die ( $query );
+
+$num=mysql_numrows($result);
+$i=0;
+while ($i < $num) {
+      $post_id = mysql_result($result,$i,"phpbb_posts.post_id");
+      $forum_id = mysql_result($result,$i,"phpbb_topics.forum_id");
+      $topic_id = mysql_result($result,$i,"phpbb_topics.topic_id");
+      $post_text = mysql_result($result,$i,"phpbb_posts.post_text");
+      $topic_time = mysql_result($result,$i,"phpbb_topics.topic_time");
+      $post_subject = mysql_result($result,$i,"phpbb_posts.post_subject");
+      $haystack = " abcdefghijklmnopqrswtuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+      $h=0;
+      $clean_subject = "";
+      while ($h < strlen ( $post_subject ) ) {
+            $needle = substr ( $post_subject , $h , 1 );
+            if ( strpos( $haystack , $needle )  !== false )  $clean_subject = $clean_subject . $needle ;
+            $h++;
+      }
+      $h=0;
+      $clean_text = "";
+      while ($h < min(200,strlen ( $post_text )) ) {
+            $needle = substr ( $post_text , $h , 1 );
+            if ( strpos( $haystack , $needle )   !== false  ) $clean_text = $clean_text . $needle ;
+            $h++;
+      }
+            $fromzip=mysql_result($result,$i,"phpbb_topics.pnp_sendzip");
+	    $tozip = mysql_result($result,$i,"phpbb_topics.pnp_reczip");;
+            $fromlat = 0;
+            $tolat = 0;
+            $fromlon = 0;
+            $tolon = 0;
+	    $query='select lat , lon from zipcodes where zip="' . $fromzip . '"';
+            if ( $dbg == "yes") $echodata =  $query;
+            $zresult=mysql_query($query);
+	    if ( $dbg == "yes")  $echodata =  mysql_numrows($zresult);
+            if ( mysql_numrows($zresult) > 0 ) {
+               $fromlat = mysql_result($zresult,0,"lat");
+               $fromlon = mysql_result($zresult,0,"lon");
+
+            $query='select lat , lon from zipcodes where zip="' . $tozip . '"';
+            $query='select lat , lon from zipcodes where zip="' . $tozip . '"';
+            if ( $dbg == "yes")  $echodata =  ' ' . $query . ' ';
+            $zresult=mysql_query($query);
+	    if ( $dbg == "yes")  $echodata =  mysql_numrows($zresult);
+            if ( mysql_numrows($zresult) > 0 ) {
+               $tolat = mysql_result($zresult,0,"lat");
+               $tolon = mysql_result($zresult,0,"lon");
+            }
+            if ( $fromlon <> 0 )
+            if ( $fromlat <> 0 )
+            if ( $tolon <> 0 )
+            if ( $tolat <> 0 )
+            
+            { $sa=distance($mylat,$mylon,$fromlat,$fromlon);
+              $sb=distance($mylat,$mylon,$tolat,$tolon);
+              $ab=distance($fromlat,$fromlon,$tolat,$tolon);
+              $h1=sqrt(($sa + $sb + $ab) * ( $sa + $sb - $ab ) * ( $sb + $ab - $sa ) * ( $ab + $sa - $sb ) / 16) / $ab * 2;
+              $h2=$h1*$h1;
+              $ah=sqrt(pow($sa,2)-$h2);
+              $e2 = pow($ah-min(max(0,$ah),$ab),2);
+              $dtl=sqrt($h2+$e2);
+/*              $dtl=sqrt($h2+pow($ah-min(max(0,$ah),$ab),2)); */
+/*              if ($dtl<sqrt($d2))  */
+                if ( ($sa<$ab && $sb<$ab && $h1<$my_distance ) || $sa<$my_distance || $sb<$my_distance )
+{
+
+
+            echo '<tr>'
+                 . '<td><a href="http://pilotsnpaws.org/forum/viewtopic.php?f=5&t=' . $topic_id . '&p=' . $post_id . '" target="PNP">'
+                 . $clean_subject 
+                 . '</a></td><td>'
+                 . $clean_text 
+                 . '</td>' 
+                 . '<td><a href="http://maps.google.com/maps?q=http://www.pilotsnpaws.org/forum/phpbb_kmlb.php?fromzip=' . $fromzip . $tozip . $post_id . '" target="MAP">Map This Request</a></td>'
+                 . '</tr>';
+            }
+            }
+}
+      $i++;
+}
+echo '</table>';
+}
+echo'
+</body>
+</html>';
+<!-- ENDPHP -->
+
+      </p>
+   </div>
+
+   <span class="corners-bottom"><span></span></span></div>
+</div>
+
+<!-- INCLUDE jumpbox.html -->
+<!-- INCLUDE overall_footer.html -->

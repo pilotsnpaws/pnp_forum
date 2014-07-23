@@ -1,0 +1,14 @@
+Subject: Username reminder
+
+Hello {USERNAME}
+
+You are receiving this email because you requested to be reminded of your username for your account on "{SITENAME}". 
+
+Your username is {USERNAME}.
+
+You can use this information to log in to the forum at {U_BOARD}.
+
+ 
+{EMAIL_SIG}
+ 
+

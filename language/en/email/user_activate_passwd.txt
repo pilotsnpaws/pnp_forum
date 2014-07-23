@@ -1,0 +1,22 @@
+Subject: New password activation
+
+Hello {USERNAME}
+
+A new password for your account on "{SITENAME}" is provided below. 
+Here is how to use it:
+ 
+1. Click on this link to activate the new password: {U_ACTIVATE}
+
+2. Log into the forum at http://inflightpnp.org/forum
+
+3. Use current username and this NEW password: {PASSWORD}
+
+4. Click Login
+ 
+5. If you still receive an error message stating you have exceeded the number of log in attempts, simply answer the code question box, enter your same username and NEW password a SECOND time in the blank boxes above the code box, and click Login.
+
+You can change your password after logging in by going to your User Control Panel, click on Profile, then Edit Account Settings.
+ 
+{EMAIL_SIG}
+ 
+
