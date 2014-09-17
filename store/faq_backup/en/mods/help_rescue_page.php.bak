@@ -175,7 +175,7 @@ Transport requests posted in the wrong forum will be moved or removed.',
 	),
 	array(
 		0 => 'I need a pet flown to me from a breeder, can you help?',
-		1 => 'Pilots N Paws transports rescue animals.  We do not transport animals that people are purchasing from breeders. Please contact a commercial transport service to assist you.',
+		1 => 'Pilots N Paws transports rescue animals.  We do not transport animals that people are purchasing from breeders. Please contact a commercial airline service to assist you.',
 	),
 	array(
 		0 => 'I need an animal flown in from overseas, can you help?',

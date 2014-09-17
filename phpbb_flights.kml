@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <kml xmlns="http://earth.google.com/kml/2.2">
+      <Document>
+      <name>Pilots N Paws - Planned Flights</name>
+      <description>
+      <![CDATA[Pilots N Paws - Planned Flights www.pilotsnpaws.org]]>
+      </description>
+      <Style id="red1"><LineStyle><color>ff0000ff</color><width>1</width></LineStyle></Style>
+      <Style id="red2"><LineStyle><color>7f0000ff</color><width>1</width></LineStyle></Style>
+      <Style id="red3"><LineStyle><color>3f0000ff</color><width>1</width></LineStyle></Style>
+      <Style id="green1"><LineStyle><color>ff00ff00</color><width>1</width></LineStyle></Style>
+      <Style id="green2"><LineStyle><color>7f00ff00</color><width>1</width></LineStyle></Style>
+      <Style id="green3"><LineStyle><color>3f00ff00</color><width>1</width></LineStyle></Style>
+      <Style id="blue1"><LineStyle><color>ffff0000</color><width>1</width></LineStyle></Style>
+      <Style id="blue2"><LineStyle><color>7fff0000</color><width>1</width></LineStyle></Style>
+      <Style id="blue3"><LineStyle><color>3fff0000</color><width>1</width></LineStyle></Style>
+
+<Placemark><name>Taking a trip to Texas  willing to take a healthy dog</name><description><![CDATA[<div="ltr"><br>Airline or Private AirlineOnce or Repeated OnceBoth Directions YN YesFee Charged by Airline 100Im flying to Dallas to visit friends on 41 and will take along a dog for the airline fee<br><br><br><a href="http://pilotsnpaws.org/forum/viewtopic.php?f=29&amp;t=11183&amp;p=30868">View Post</a><br><br></div>]]> </description><styleUrl>#red1</styleUrl><LineString>
+                  <extrude>1</extrude>
+                  <tessellate>1</tessellate>
+                  <altitudeMode>absolute</altitudeMode>
+                  <coordinates> -87.905870 , 41.978143 , 0  -97.037996 , 32.896828 , 0  </coordinates>
+                 </LineString>
+                  </Placemark><Placemark><name>Flight Attendant NYC to LA</name><description><![CDATA[<div="ltr"><br>Airline or Private AirlineOnce or Repeated RepeatedBoth Directions YN YesFee Charged by Airline 100Hi Im a flight attendant with White Knuckle Airlines and am willing to accompany your <br><br><br><a href="http://pilotsnpaws.org/forum/viewtopic.php?f=29&amp;t=11182&amp;p=30867">View Post</a><br><br></div>]]> </description><styleUrl>#red1</styleUrl><LineString>
+                  <extrude>1</extrude>
+                  <tessellate>1</tessellate>
+                  <altitudeMode>absolute</altitudeMode>
+                  <coordinates> -73.778926 , 40.639751 , 0  -118.407161 , 33.942522 , 0  </coordinates>
+                 </LineString>
+                  </Placemark><Placemark><name>Flying to Florida</name><description><![CDATA[<div="ltr"><br>Airline or Private PrivateOnce or Repeated OnceBoth Directions YN YesFee Charged by Airline NAIm flying down to visit Mom on 315 I can take tow small crates or one large one<br><br><br><a href="http://pilotsnpaws.org/forum/viewtopic.php?f=29&amp;t=11181&amp;p=30866">View Post</a><br><br></div>]]> </description><styleUrl>#red1</styleUrl><LineString>
+                  <extrude>1</extrude>
+                  <tessellate>1</tessellate>
+                  <altitudeMode>absolute</altitudeMode>
+                  <coordinates> -71.964694 , 42.290500 , 0  -81.332937 , 28.545464 , 0  </coordinates>
+                 </LineString>
+                  </Placemark></Document></kml>

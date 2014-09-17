@@ -1,5 +1,7 @@
 Subject: Topic reply notification - "{TOPIC_TITLE}"
 
+***** DO NOT REPLY TO THIS EMAIL *****
+
 Hello {USERNAME},
 
 You are receiving this notification because you are watching the topic, "{TOPIC_TITLE}" at "{SITENAME}". 
