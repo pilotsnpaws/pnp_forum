@@ -1274,20 +1274,15 @@ function user_notification($mode, $subject, $topic_title, $forum_name, $forum_id
 			reczip.lat, reczip.lon, reczip.city as reccity, reczip.state as recstate,
 			p.user_id,p.pf_airport_id,p.pf_pilot_yn,p.pf_flying_radius,
 			airports.lat, airports.lon,
-
 60 * degrees(acos(sin(radians(airports.lat)) * sin(radians(sendzip.lat)) + cos(radians(airports.lat)) * cos(radians(sendzip.lat)) * cos(radians(airports.lon - sendzip.lon)))) + 
-
 60 *  degrees(acos(sin(radians(airports.lat)) * sin(radians(reczip.lat)) + cos(radians(airports.lat)) * cos(radians(reczip.lat)) * cos(radians(airports.lon - reczip.lon)))) - 
-
 60 *  degrees(acos(sin(radians(reczip.lat)) * sin(radians(sendzip.lat)) + cos(radians(reczip.lat)) * cos(radians(sendzip.lat)) * cos(radians(reczip.lon - sendzip.lon)))) as dist
-
 			FROM    phpbb_users u,
 				phpbb_profile_fields_data p,
 				phpbb_topics t,
 				zipcodes sendzip,
 				zipcodes reczip,
 				airports
-         
 			WHERE 	t.topic_id = $topic_id and
 				p.pf_flying_radius > 0 and 
 				p.pf_pilot_yn =1 and airports.apt_id = p.pf_airport_id and 
@@ -1301,9 +1296,7 @@ function user_notification($mode, $subject, $topic_title, $forum_name, $forum_id
 				reczip.zip = t.pnp_recZip and
 				u.user_id = p.user_id and
 				60 * degrees(acos(sin(radians(airports.lat)) * sin(radians(sendzip.lat)) + cos(radians(airports.lat)) * cos(radians(sendzip.lat)) * cos(radians(airports.lon - sendzip.lon)))) + 
-
 60 *  degrees(acos(sin(radians(airports.lat)) * sin(radians(reczip.lat)) + cos(radians(airports.lat)) * cos(radians(reczip.lat)) * cos(radians(airports.lon - reczip.lon)))) - 
-
 60 *  degrees(acos(sin(radians(reczip.lat)) * sin(radians(sendzip.lat)) + cos(radians(reczip.lat)) * cos(radians(sendzip.lat)) * cos(radians(reczip.lon - sendzip.lon)))) < p.pf_flying_radius
 				AND u.user_type IN (" . USER_NORMAL . ', ' . USER_FOUNDER . ')'
 ;
@@ -2819,6 +2812,17 @@ function phpbb_bump_topic($forum_id, $topic_id, $post_data, $bump_time = false)
 	$url = append_sid("{$phpbb_root_path}viewtopic.$phpEx", "f=$forum_id&amp;t=$topic_id&amp;p={$post_data['topic_last_post_id']}") . "#p{$post_data['topic_last_post_id']}";
 
 	return $url;
+}
+
+// logging added by Mike 2014-07-17
+function logEvent($message) {
+    if ($message != '') {
+        // Add a timestamp to the start of the $message
+        $message = date("Y/m/d H:i:s").': '.$message;
+        $fp = fopen('../../papertrail_logging/events.log', 'a');
+        fwrite($fp, $message."\n");
+        fclose($fp);
+    }
 }
 
 ?>

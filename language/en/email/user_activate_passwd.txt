@@ -7,7 +7,7 @@ Here is how to use it:
  
 1. Click on this link to activate the new password: {U_ACTIVATE}
 
-2. Log into the forum at http://inflightpnp.org/forum
+2. Log into the forum at http://www.pilotsnpaws.org/forum
 
 3. Use current username and this NEW password: {PASSWORD}
 
