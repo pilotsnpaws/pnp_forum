@@ -62,35 +62,42 @@
 		Receiving Phone Number:  {PNP_RECPHONE} <br />
 		Sending Email:  {PNP_SENDEMAIL} <br />
 		Receiving Email:  {PNP_RECEMAIL} <br />
-<a href="http://maps.google.com/maps?q=http://www.pilotsnpaws.org/forum/phpbb_kmlb.php?fromzip={PNP_SENDZIP}{PNP_RECZIP}{postrow.POST_ID}" target="_blank"><span style="color: red;"><b>Map This Request</b></span></a>		
+		<a href="http://maps.google.com/maps?q=http://www.pilotsnpaws.org/forum/phpbb_kmlb.php?fromzip={PNP_SENDZIP}{PNP_RECZIP}{postrow.POST_ID}" target="_blank"><span style="color: red;"><b>Map This Request</b></span></a>		
 				
 		</div>
-		<span class="corners-bottom"><span></span></span></div>
+		<span class="corners-bottom"><span>
+		</span>
+		</span>	
+		</div>
 	</div>
 <!-- ENDIF -->
 
 
 <!-- IF S_PNP_TRANSPORT -->
+
 	<div class="panel">
 		<div class="inner"><span class="corners-top"><span></span></span>
-		<div class="content">
-		
-		Sending Zip Code:  {PNP_SENDZIP} <br />
-		Receiving Zip Code:  {PNP_RECZIP} <br />
-<!-- IF PNP_SENDZIP -->
-<!-- IF PNP_RECZIP -->
-<a href="/maps/maps_single_trip.php?topic={TOPIC_ID}" target="_blank"><span style="color: blue;"><b>Map This Request</b></span></a>	
-<a href="/maps_more/mapsmore_volunteersZip.php?zipCode={PNP_SENDZIP}" target="_blank"><span style="color: orange;"><b>Pilots near {PNP_SENDZIP}</b></span></a>	
-<a href="/maps_more/mapsmore_volunteersZip.php?zipCode={PNP_RECZIP}" target="_blank"><span style="color: purple;"><b>Pilots near {PNP_RECZIP}</b></span></a>	
-<!-- IF PNP_URL -->
-&nbsp<a href="{PNP_URL}" target="_blank"><span style="color: green;"><b>Flight Plan using Skyvector</b></span></a>
-&nbsp<a href="/maps_more/phpbb_moreoptions.php?fromzip={PNP_SENDZIP}{PNP_RECZIP}" target="_blank"><span style="color: orange;"><b> More Mapping Options</b></span></a>
 
-<!-- ENDIF -->
-<!-- ENDIF -->
-<!-- ENDIF -->
+	<!-- IF PNP_SENDZIP -->
+	<!-- IF PNP_RECZIP -->		
+
+			<div class="content">
+				Sending Zip Code: <B> {PNP_SENDZIP} </B> | Receiving Zip Code:  <B>{PNP_RECZIP} </B><br />
+				<a href="/maps/maps_single_trip.php?topic={TOPIC_ID}" target="_blank"><span style="color: blue;"><b>Map This Request</b></span></a>	
+				<a href="/maps_more/mapsmore_volunteersZip.php?zipCode={PNP_SENDZIP}" target="_blank"><span style="color: orange;"><b>Pilots near {PNP_SENDZIP}</b></span></a>	
+				<a href="/maps_more/mapsmore_volunteersZip.php?zipCode={PNP_RECZIP}" target="_blank"><span style="color: purple;"><b>Pilots near {PNP_RECZIP}</b></span></a>	
+			<!-- IF PNP_URL -->
+				<a href="{PNP_URL}" target="_blank"><span style="color: green;"><b>Flight Plan using Skyvector</b></span></a>
+				<a href="/maps_more/phpbb_moreoptions.php?fromzip={PNP_SENDZIP}{PNP_RECZIP}" target="_blank"><span style="color: orange;"><b> More Mapping Options</b></span></a>
+			<!-- ENDIF -->
+			</div>
+	<!-- ENDIF -->
+	<!-- ENDIF -->
+			
+			<span class="corners-bottom"><span>
+			</span>
+		</span>
 		</div>
-		<span class="corners-bottom"><span></span></span></div>
 	</div>
 <!-- ENDIF -->
 

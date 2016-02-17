@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /stats/
+Disallow: /maps_more/
+Disallow: /references/
+Crawl-delay: 3
+

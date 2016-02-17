@@ -236,12 +236,6 @@ function view_message($id, $mode, $folder_id, $msg_id, $folder, $message_row)
 		'U_PRINT_PM'		=> ($config['print_pm'] && $auth->acl_get('u_pm_printpm')) ? "$url&amp;f=$folder_id&amp;p=" . $message_row['msg_id'] . "&amp;view=print" : '',
 		'U_FORWARD_PM'		=> ($config['forward_pm'] && $auth->acl_get('u_sendpm') && $auth->acl_get('u_pm_forward')) ? "$url&amp;mode=compose&amp;action=forward&amp;f=$folder_id&amp;p=" . $message_row['msg_id'] : '')
 	);
-	//-- mod : PM Button "Reply to all" --------------------------------------------------------
-//-- add
-	$template->assign_vars(array(
-		'S_REPLY_ALL'		=> file_exists($user->img('button_pm_reply_all', '', false, '', 'src')),
-	));
-//-- end : PM Button "Reply to all" --------------------------------------------------------
 
 	// Display not already displayed Attachments for this post, we already parsed them. ;)
 	if (isset($attachments) && sizeof($attachments))
