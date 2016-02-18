@@ -421,7 +421,8 @@ class messenger
 		// We could use keys here, but we won't do this for 3.0.x to retain backwards compatibility
 		$headers = array();
 
-		$headers[] = 'From: ' . $this->from;
+		// $headers[] = 'From: ' . $this->from;
+		$headers[] = 'From: Pilots N Paws forums ' . $this->from; 
 
 		if ($cc)
 		{
