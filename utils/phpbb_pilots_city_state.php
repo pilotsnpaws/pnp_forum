@@ -5,7 +5,7 @@ function xmlspecialchars($text) {
 
 
 
-include ( "../forum/config.php");
+include ( "../../forum/config.php");
 
 $username=$dbuser;
 $password=$dbpasswd;
