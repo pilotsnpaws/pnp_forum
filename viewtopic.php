@@ -347,6 +347,7 @@ $pnp_recPhone = ($pnp5k != 0) ? $topic_data['pnp_recPhone'] : 0;
 $pnp_sendEmail = ($pnp5k != 0) ? $topic_data['pnp_sendEmail'] : 0;
 $pnp_recEmail = ($pnp5k != 0) ? $topic_data['pnp_recEmail'] : 0;
 $pnp_url = "";
+$sendWx_url = "";
 $pnpfromtotext = "";
 if ( $forum_id == 5 ) {
 $pnpres = $db->sql_query('SELECT Concat( "<br>From " , f.city,", ",f.state,"(",f.zip,")" ," To ",t.city,", ",t.state,"(",t.zip,")") as pnpfttext from zipcodes f,zipcodes t where f.zip = "' . $pnp_sendZip . '" and t.zip = "' . $pnp_recZip . '"');
@@ -357,13 +358,16 @@ $pnpfromtotext = $fromtores['pnpfttext'];
 $db->sql_freeresult($pnpres);
 }
 
-$sql = 'select concat("http://www.skyvector.com/?ll=",f.lat,",",f.lon,"&zoom=3&plan=G.",f.lat,",",f.lon,":G.",t.lat,",",t.lon) pnp_url from zipcodes f, zipcodes t where f.zip = "' . $pnp_sendZip . '" and t.zip = "' . $pnp_recZip . '"';
+$sql = 'select concat("http://www.skyvector.com/?ll=",f.lat,",",f.lon,"&zoom=3&plan=G.",f.lat,",",f.lon,":G.",t.lat,",",t.lon) pnp_url,
+		concat("http://forecast.weather.gov/MapClick.php?lat=",f.lat,"&lon=",f.lon) as sendWx_url
+		 from zipcodes f, zipcodes t where f.zip = "' . $pnp_sendZip . '" and t.zip = "' . $pnp_recZip . '"';
 
 $result = $db->sql_query($sql);
 
 		while ($row = $db->sql_fetchrow($result))
 		{
 			$pnp_url = $row['pnp_url'];
+			$sendWx_url = $row['sendWx_url'];
 		}
 		$db->sql_freeresult($result);
 
@@ -705,7 +709,7 @@ $template->assign_vars(array(
 	'PNP_FLON'		=> $pnp_flon,
 	'PNP_TLAT'		=> $pnp_tlat,
 	'PNP_TLON'		=> $pnp_tlon,
-        'PNP_EXPIREDATE'        => $pnp_expiredate,
+    'PNP_EXPIREDATE'        => $pnp_expiredate,
 	'PNP_SENDNAME'		=> $pnp_sendName,
 	'PNP_RECNAME'		=> $pnp_recName,
 	'PNP_SENDPHONE'		=> $pnp_sendPhone,
@@ -713,9 +717,10 @@ $template->assign_vars(array(
 	'PNP_SENDEMAIL'		=> $pnp_sendEmail,
 	'PNP_RECEMAIL'		=> $pnp_recEmail,
 	'S_PNP_5K'	        => $pnp5k,
-        'S_PNP_TRANSPORT'       => $pnptransport,
-        'S_PNP_FLIGHT'          => $pnpflight,
-         'PNP_URL'              => $pnp_url,
+    'S_PNP_TRANSPORT'   => $pnptransport,
+    'S_PNP_FLIGHT'      => $pnpflight,
+    'PNP_URL'           => $pnp_url,
+    'SENDWX_URL'        => $sendWx_url,
 
 	'S_IS_LOCKED'			=>($topic_data['topic_status'] == ITEM_UNLOCKED) ? false : true,
 	'S_SELECT_SORT_DIR' 	=> $s_sort_dir,
