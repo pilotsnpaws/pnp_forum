@@ -1263,7 +1263,8 @@ function user_notification($mode, $subject, $topic_title, $forum_name, $forum_id
 		}
 		$db->sql_freeresult($result);
 	}
-	// PNP Custom _ if f=5 and mode = post notify all pilots along route
+	// PNP Custom _ if f=5 (the transport forum) and mode = post notify all pilots along route
+
 	$fromto = "";
 	if ($mode == 'post' && $forum_id == 5 )
 	{
@@ -1320,8 +1321,8 @@ function user_notification($mode, $subject, $topic_title, $forum_name, $forum_id
 				'user_id'		=> $notify_user_id,
 				'username'		=> $row['username'],
 				'user_email'	=> $row['user_email'],
-				'user_jabber'	=> $row['user_jabber'],
-				'user_lang'		=> $row['user_lang'],
+				'user_jabber'	=> null,
+				'user_lang'		=> null,
 				'notify_type'	=> 'forum',
 				'template'		=> 'pilot_request',
 				'method'		=> $row['user_notify_type'],
