@@ -2,6 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}" xml:lang="{S_USER_LANG}">
 <head>
 
+<!-- end 2016-04-19 Castle addition, MJG --> 
+<script type="text/javascript">
+  (function(e,t,n,r){function i(e,n){e=t.createElement("script");e.async=1;e.src=r;n=t.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)}e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)};e.attachEvent?e.attachEvent("onload",i):e.addEventListener("load",i,false)})(window,document,"_castle","//d2t77mnxyo7adj.cloudfront.net/v1/c.js")
+  _castle('setAppId', '335315611727248');
+  _castle('identify', '{S_USERNAME}'
+  	, {  // 1234 is this user's id in your database
+     // name: 'Jane Doe', // optional
+     email: '{S_USER_EMAIL}' // optional
+  	 }
+  );
+</script>
+<!-- end 2016-04-19 Castle addition --> 
+
 <meta http-equiv="content-type" content="text/html; charset={S_CONTENT_ENCODING}" />
 <meta http-equiv="content-style-type" content="text/css" />
 <meta http-equiv="content-language" content="{S_USER_LANG}" />
@@ -76,6 +89,7 @@
 
 // ]]>
 </script>
+
 <script type="text/javascript" src="{T_SUPER_TEMPLATE_PATH}/styleswitcher.js"></script>
 <script type="text/javascript" src="{T_SUPER_TEMPLATE_PATH}/forum_fn.js"></script>
 
@@ -101,7 +115,8 @@
 			<div class="inner"><span class="corners-top"><span></span></span>
 
 			<div id="site-description">
-				<a href="/" title="{L_INDEX}" id="logo">{SITE_LOGO_IMG}</a>
+				<a href="{U_INDEX}" title="{L_INDEX}" id="logo">{SITE_LOGO_IMG}</a>
+				<h1>{SITENAME}</h1>
 				<p>{SITE_DESCRIPTION}</p>
 				<p class="skiplink"><a href="#start_here">{L_SKIP}</a></p>
 			</div>

@@ -1273,6 +1273,8 @@ function user_notification($mode, $subject, $topic_title, $forum_name, $forum_id
 			$sql_ignore_users .= ', ' . implode(', ', array_keys($notify_rows));
 		}
 
+		logEvent('functions_posting notif SQL start for topic/post: ' . $topic_id . '/' . $post_id );
+
 		$sql = "SELECT u.user_id, u.username, u.user_email, u.user_lang, u.user_notify_type, u.user_jabber,
 			t.pnp_sendZip , t.pnp_recZip, 
 			sendzip.lat, sendzip.lon, sendzip.city as sendcity, sendzip.state as sendstate, 
@@ -1379,6 +1381,9 @@ function user_notification($mode, $subject, $topic_title, $forum_name, $forum_id
 		}
 	}
 	unset($notify_rows);
+
+	// add log of how many notifs we should send, MJG 2016-04-20
+	logEvent('functions_posting notif msg_users: ' . count($msg_users) . ' for topic/post ' . $topic_id . '/' . $post_id);
 
 	// Now, we are able to really send out notifications
 	if (sizeof($msg_users))
@@ -2825,5 +2830,17 @@ function phpbb_bump_topic($forum_id, $topic_id, $post_data, $bump_time = false)
 
 	return $url;
 }
+
+// logging added by Mike 2016-04-20
+function logEvent($message) {
+    if ($message != '') {
+        // Add a timestamp to the start of the $message
+        $message = date("Y/m/d H:i:s").': '.$message;
+        $fp = fopen('../../papertrail_logging/events.log', 'a');
+        fwrite($fp, $message."\n");
+        fclose($fp);
+    }
+}
+
 
 ?>
