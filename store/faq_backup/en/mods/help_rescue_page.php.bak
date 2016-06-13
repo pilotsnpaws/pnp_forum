@@ -49,7 +49,7 @@ Transport requests posted in the wrong forum will be moved or removed.',
 	),
 	array(
 		0 => 'How do I cancel my transport request?',
-		1 => 'On your original post click EDIT, then put a dot on the CANCEL icon and click SUBMIT. Do this promptly as soon as you know you need to cancel. Cancelled requests will be removed from <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a> by moderators so pilots can focus on active requests.',
+		1 => 'On your original post click EDIT, then put a dot on the CANCEL icon and click SUBMIT. Do this immediately as soon as you know you need to cancel. Cancelled requests will be removed from <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a> by moderators so pilots can focus on active requests.',
 	),
 	array(
 		0 => 'How promptly should I cancel?',

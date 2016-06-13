@@ -1,4 +1,4 @@
-	</div>
+</div>
 
 <div id="page-footer">
 <!-- IF S_DISCLAIMER -->
@@ -15,7 +15,7 @@
 		<div class="inner"><span class="corners-top"><span></span></span>
 
 		<ul class="linklist">
-			<li class="icon-home"><a href="{U_INDEX}" accesskey="h">{L_INDEX}</a></li>
+			<li class="icon-home"><a href="{U_INDEX}">{L_INDEX}</a></li>
 				<!-- IF not S_IS_BOT -->
 					<!-- IF S_WATCH_FORUM_LINK --><li <!-- IF S_WATCHING_FORUM -->class="icon-unsubscribe"<!-- ELSE -->class="icon-subscribe"<!-- ENDIF -->><a href="{S_WATCH_FORUM_LINK}" title="{S_WATCH_FORUM_TITLE}">{S_WATCH_FORUM_TITLE}</a></li><!-- ENDIF -->
 					<!-- IF U_WATCH_TOPIC --><li <!-- IF S_WATCHING_TOPIC -->class="icon-unsubscribe"<!-- ELSE -->class="icon-subscribe"<!-- ENDIF -->><a href="{U_WATCH_TOPIC}" title="{L_WATCH_TOPIC}">{L_WATCH_TOPIC}</a></li><!-- ENDIF -->
@@ -28,7 +28,9 @@
 		<span class="corners-bottom"><span></span></span></div>
 	</div>
 
-	<div class="copyright">{CREDIT_LINE}
+	<div class="copyright">{CREDIT_LINE}<br>
+	© Pilots N Paws 2016; 2008<br>
+		Pilots N Paws and the Pilots N Paws Logo are registered trademarks of www.pilotsnpaws.org.<br>
 		<!-- IF TRANSLATION_INFO --><br />{TRANSLATION_INFO}<!-- ENDIF -->
 		<!-- IF DEBUG_OUTPUT --><br />{DEBUG_OUTPUT}<!-- ENDIF -->
 		<!-- IF U_ACP --><br /><strong><a href="{U_ACP}">{L_ACP}</a></strong><!-- ENDIF -->
@@ -41,6 +43,19 @@
 	<a id="bottom" name="bottom" accesskey="z"></a>
 	<!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF -->
 </div>
+
+<!-- Google analytics tracking code testing - Mike 2015-05-05 -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62646402-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End Google analytics tracking -->
 
 </body>
 </html>

@@ -37,18 +37,28 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Welcome to Pilots N Paws!  Our goal is to be a meeting place for those who rescue, shelter or foster animals, and pilots and plane owners willing to assist with the transportation of animals.<br /><br />
-The views and comments entered in these forums are personal and are not those of Pilots N Paws. <br /><br />
-Pilots N Paws has the right to remove, edit, move or close any topic, and to ban any member at any time. <br /> <br />
-By registering, you agree to the following terms and conditions: <br /><br />
-I agree to keep my language and links family friendly at all times. <br /><br />
-I understand that the information I enter will be stored in a database. While this information will not be disclosed to any third party without my consent, Pilots N Paws will not be held responsible for any hacking attempt that may lead to the data being compromised.<br /><br />
-I understand that personal information I include in my posts will be publicly viewable and may be picked up and cached by search engines.  It is my decision whether to post personal information for the sake of expediting my rescue.  I have the option to rely on private messaging or request that registered users contact me through the email icon in my profile, which is hidden from search engines.<br /><br />
-I understand that rescue flights are the responsibility of the sending and receiving parties and pilots. Pilots N Paws is only a meeting place for rescue flights. Pilots N Paws does not coordinate transports and/or rescue animals. Pilots N Paws cannot be held responsible or liable for any flights. Flights are the responsibility and liability of the sending and receiving parties and pilots.<br /><br />  
-<strong style="color:#BC2A4D;">I agree that if I post a transport request on this board, I will log in daily and check my request for replies until the request is filled or until I cancel my request. </strong>THIS IS IMPORTANT!  Logging in daily and keeping your posts updated shows pilots your request is still active, and ensures you see all replies or private messages right away.  Do not rely solely on direct email notification of replies.<br /><br />
-<strong style="color:#BC2A4D;">I agree that if I post a transport request and it is completed, cancelled, or postponed,  I will update my request on the board immediately by editing my subject line to "DONE" or "CANCELLED". </strong>THIS IS IMPORTANT! It will keep the board and the transport requests current thereby allowing the generous volunteer pilots to accept another request if yours is no longer needed.<br /><br /> 
-<strong style="color:#BC2A4D;">I agree that if I post or receive a transport request on this board, I will respond to all replies from pilots or rescues immediately.</strong> THIS IS IMPORTANT!  It is common courtesy to the volunteer pilots and rescues and ensures your transport request has the highest chance of success.<br /><br />  
-I agree to follow all additional guidelines posted by administration on the board.<br /><br />
+	'TERMS_OF_USE_CONTENT'	=> '<strong style>Discussion Board Rules</strong><br><br>
+
+Pilots N Paws is a community of volunteers, and we do not actively monitor forum postings.  Pilots N Paws will not be held responsible for the content of any message posted on the Pilots N Paws discussion board.<br><br>  
+
+Volunteers are encouraged to use the Pilots N Paws discussion board to arrange rescue transports, post their rescue stories, connect with other animal activists, and discuss issues relating to aviation and animals.  To keep our community a productive and safe place, we ask that you please respect our rules.  The rules apply to public posts, private messages, and email sent through the board mail feature. These rules may be modified from time to time, and we ask that you please check this page regularly.<br><br>      
+
+•	All rescue flights arranged through the Pilots N Paws discussion board are considered flights facilitated by Pilots N Paws.  Volunteers may not use the Pilots N Paws discussion board to solicit funds or promote the services of any other animal rescue, sheltering or transportation organization, including but not limited to posting links or third-party organization names and links in signature blocks, without the express permission of Pilots N Paws.<br><br>  
+
+•	No profanity, racist or sexist comments. This includes using abbreviations or changing one letter of a swear word such that the word(s) are still interpreted by most as profane.<br><br>
+
+•	No pornographic or obscene material of any kind. Any user posting pornographic pictures, or links to such material will be prohibited from participating in PNP activities.<br><br> 
+
+•	Members should post in a way that is respectful of other users.  Harassing another poster or making derogatory comments about or to another volunteer may lead to disqualification from further participation in PNP activities.<br><br>
+
+•	No posting or distribution of any material that infringes and/or violates any right of a third party or any law.  This includes the improper use of trademarks or copyrighted material.  You are fully responsible for any information that is posted on the discussion board.<br><br> 
+
+•	Please make posts in the relevant forum.  Users are asked to read the forum descriptions before posting.  Spamming and excessive off topic posting is not permitted and may result in being prohibited from participating in PNP activities.<br><br>
+
+•	Pilots N Paws moderators reserve the right to edit or remove any post at any time for any reason, and volunteers who do not respect our rules risk being banned from participating in PNP activities.  There may be no warning or explanation, and decisions are based on the moderator’s discretion and judgment.  Of course, in almost all cases we will attempt to notify and work with you before prohibiting you from participating in PNP activities.<br><br> 
+
+•	If you see anything on the forum that you believe violates one of the above rules, please do not hesitate to bring it to our attention!<br>
+
 	',
 
 	'PRIVACY_POLICY'		=> 'This policy explains in detail how “%1$s” along with its affiliated companies (hereinafter “we”, “us”, “our”, “%1$s”, “%2$s”) and phpBB (hereinafter “they”, “them”, “their”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) use any information collected during any session of usage by you (hereinafter “your information”).<br />
@@ -277,7 +287,7 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Move messages from removed folder to',
 	'MOVE_DOWN'						=> 'Move down',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Move marked to %s',
-	'MOVE_PM_ERROR'					=> 'An error occurred while moving the messages to the new folder, only %1d from %2d messages were moved.',
+	'MOVE_PM_ERROR'					=> 'An error occurred while moving the messages to the new folder, only %1$d from %2$d messages were moved.',
 	'MOVE_TO_FOLDER'				=> 'Move to folder',
 	'MOVE_UP'						=> 'Move up',
 

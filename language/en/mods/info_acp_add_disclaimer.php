@@ -38,17 +38,7 @@ $lang = array_merge($lang, array(
 	'SHOW_DISCLAIMER_EXPLAIN'	=> 'Show the board disclaimer message at the bottom of each page.',
 
 	'DISCLAIMER'				=> 'Disclaimer',
-	'DISCLAIMER_TEXT'			=> 'The views and comments entered in these forums are personal and are
-not those of Pilots N Paws. Rescue flights are the responsibility of
-the sending and receiving parties and pilots. Pilots N Paws is only an
-electronic meeting place for those seeking to make arrangements for
-rescue flights. Pilots N Paws does not arrange for rescue flights,
-coordinate transports and/or rescue animals. Pilots volunteer their
-time and aircraft to the sending and receiving parties, not to Pilots
-N Paws.  Pilots N Paws is not responsible or liable for the conduct of
-any pilots or flights. Compliance with applicable law and the conduct
-of flights are the responsibility and liability of the sending and
-receiving parties and pilots.',
+	'DISCLAIMER_TEXT'			=> 'DISCLAIMER: The views and comments entered in these forums are personal and are not those of Pilots N Paws. Rescue flights are the responsibility of the sending and receiving parties and pilots. Pilots N Paws is an electronic meeting place for those seeking to make arrangements for rescue flights. Pilots N Paws does not arrange all rescue flights, coordinate transports and/or rescue animals. Pilots volunteer their time and aircraft to the sending and receiving parties.  Pilots N Paws is not responsible or liable for the conduct of any pilots or flights. Compliance with applicable law and the conduct of flights are the responsibility and liability of the sending and receiving parties and pilots.',
 ));
 
 // Install

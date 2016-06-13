@@ -252,6 +252,10 @@ $lang = array_merge($lang, array(
 	'IMG_BUTTON_PM_FORWARD'		=> 'Forward private message',
 	'IMG_BUTTON_PM_NEW'			=> 'New private message',
 	'IMG_BUTTON_PM_REPLY'		=> 'Reply private message',
+	//-- mod : PM Button "Reply to all" --------------------------------------------------------
+//-- add
+	'IMG_BUTTON_PM_REPLY_ALL'	=> 'Reply to all (PM)',
+//-- end : PM Button "Reply to all" --------------------------------------------------------
 	'IMG_BUTTON_TOPIC_LOCKED'	=> 'Topic locked',
 	'IMG_BUTTON_TOPIC_NEW'		=> 'New topic',
 	'IMG_BUTTON_TOPIC_REPLY'	=> 'Reply topic',
