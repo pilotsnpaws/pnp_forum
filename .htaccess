@@ -59,19 +59,18 @@
 ## EXPIRES CACHING ##
 
 ExpiresActive On
-ExpiresByType image/jpg "access plus 1 year"
-ExpiresByType image/jpeg "access plus 1 year"
-ExpiresByType image/gif "access plus 1 year"
-ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
 ExpiresByType text/css "access plus 1 month"
 ExpiresByType application/pdf "access plus 1 month"
 ExpiresByType text/x-javascript "access plus 1 month"
 ExpiresByType application/x-shockwave-flash "access plus 1 month"
-ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 month"
 ExpiresDefault "access plus 2 days"
 
 ## hacker prevention by ip block
-
 ErrorDocument 403 /403.html
 
 order allow,deny
@@ -85,7 +84,7 @@ deny from 121.54.44.92 1.80.0.0/13 1.92.0.0/14 45.42.157.34
 deny from 79.173.90.0/24 79.113.199.0/24 46.102.98.0/8 188.211.162.0/8
 deny from 86.125.204.0/8 178.159.242.0/24 62.210.113.0/24
 deny from 46.235.64.0/23 180.180.109.0/24 46.119.125.0/24
-deny from 91.109.19.0/24
+deny from 91.109.19.0/24 185.65.244.0/24
 
 # Philippines
 deny from 1.37.0.0/16 23.41.224.0/20
@@ -506,7 +505,7 @@ deny from 121.0.0.0/8 122.0.0.0/8
 deny from 123.0.0.0/8 124.0.0.0/8
 deny from 125.0.0.0/8 
 # 173.0.0.0/8 174.0.0.0/8
-deny from 175.0.0.0/8 176.0.0.0/8 177.0.0.0/8
+deny from 175.0.0.0/8 177.0.0.0/8
 deny from 178.0.0.0/8 179.0.0.0/8 180.0.0.0/8
 deny from 181.0.0.0/8 182.0.0.0/8 183.0.0.0/8
 
@@ -570,4 +569,5 @@ deny from 52.11.52.106/32 46.227.0.0/16 194.70.0.0/16 5.167.0.0/16 96.47.0.0/16 
 deny from 1.0.1.0/24 1.0.2.0/23 1.0.4.0/22 1.0.8.0/21 1.0.16.0/20 1.0.32.0/19 1.0.64.0/18 1.0.128.0/17
 deny from 46.4.72.241/32 184.164.156.210/32
 deny from 106.38.224.0/19 91.200.4.0/22 91.200.8.0/21
+deny from 167.114.156.198/32
 allow from 210.147.125.80
