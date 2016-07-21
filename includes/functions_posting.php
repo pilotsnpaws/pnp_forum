@@ -231,7 +231,7 @@ function update_post_information($type, $ids, $return_update_sql = false)
 			$update_sql[$forum_id][] = "forum_last_poster_colour = ''";
 		}
 	}
-functions_posting notif
+
 	if (sizeof($last_post_ids))
 	{
 		$sql = 'SELECT p.' . $type . '_id, p.post_id, p.post_subject, p.post_time, p.poster_id, p.post_username, u.user_id, u.username, u.user_colour
