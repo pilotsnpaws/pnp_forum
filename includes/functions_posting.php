@@ -231,7 +231,7 @@ function update_post_information($type, $ids, $return_update_sql = false)
 			$update_sql[$forum_id][] = "forum_last_poster_colour = ''";
 		}
 	}
-
+functions_posting notif
 	if (sizeof($last_post_ids))
 	{
 		$sql = 'SELECT p.' . $type . '_id, p.post_id, p.post_subject, p.post_time, p.poster_id, p.post_username, u.user_id, u.username, u.user_colour
@@ -1273,7 +1273,7 @@ function user_notification($mode, $subject, $topic_title, $forum_name, $forum_id
 			$sql_ignore_users .= ', ' . implode(', ', array_keys($notify_rows));
 		}
 
-		logEvent('functions_posting notif SQL start for topic/post: ' . $topic_id . '/' . $post_id );
+		// logEvent('functions_posting notif SQL start for topic/post: ' . $topic_id . '/' . $post_id );
 
 		$sql = "SELECT u.user_id, u.username, u.user_email, u.user_lang, u.user_notify_type, u.user_jabber,
 			t.pnp_sendZip , t.pnp_recZip, 
@@ -1383,7 +1383,7 @@ function user_notification($mode, $subject, $topic_title, $forum_name, $forum_id
 	unset($notify_rows);
 
 	// add log of how many notifs we should send, MJG 2016-04-20
-	logEvent('functions_posting notif msg_users: ' . count($msg_users) . ' for topic/post ' . $topic_id . '/' . $post_id);
+	// logEvent('functions_posting notif msg_users: ' . count($msg_users) . ' for topic/post ' . $topic_id . '/' . $post_id);
 
 	// Now, we are able to really send out notifications
 	if (sizeof($msg_users))
