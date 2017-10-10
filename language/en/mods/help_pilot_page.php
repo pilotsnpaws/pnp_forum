@@ -19,8 +19,12 @@ $help = array(
 		1 => 'Forum software features',
 	),
 	array(
+		0 => 'Where are the instructions?',
+		1 => 'A quick-start is <a href="https://www.pilotsnpaws.org/how-to-use-pnp/pilots/" style="text-decoration: underline" target=_blank">here</a>.',
+	),
+	array(
 		0 => 'How can I receive automatic email notification of new transport requests in my area?',
-		1 => 'To turn on email notifications, go to the User Control Panel, select Profile, and scroll to the bottom to the field labelled "Distance willing to fly one way:". This number is presently set to zero. Setting this to 100 will cause the system to notify you, through email, of any transport request that passes less than 100 miles from your airport.  <a href="http://pilotsnpaws.org/forum/ucp.php?i=164" style="text-decoration: underline" target="_blank">This link</a> should bring you to the profile page where you can change your options.',
+		1 => 'To turn on email notifications, go to the User Control Panel, select Profile, and scroll to the bottom to the field labelled "Distance willing to fly one way:". This number is presently set to zero. Setting this to 100 will cause the system to notify you, through email, of any transport request that passes less than 100 miles from your airport.  <a href="/forum/ucp.php?i=164" style="text-decoration: underline" target="_blank">This link</a> should bring you to the profile page where you can change your options.',
 	),
 	array(
 		0 => 'How can I be notified when I have a new private message?',
@@ -44,19 +48,19 @@ $help = array(
 	),
 	array(
 		0 => 'Where can I find a map of current transport requests?',
-		1 => 'A graphical map of all active transport requests, with lines from departure point to destination, can be found <a href="http://pilotsnpaws.org/maps/maps_trips.php" style="text-decoration: underline" target="_blank">here</a>.  Southbound trips show up in green, north show up purple.',
+		1 => 'A graphical map of all active transport requests, with lines from departure point to destination, can be found <a href="/maps/maps_trips.php" style="text-decoration: underline" target="_blank">here</a>.  Southbound trips show up in green, north show up purple.',
 	),
 	array(
 		0 => 'Where can I find a listing of all pilots by state and city?',
-		1 => 'View it <a href="http://pilotsnpaws.org/forum/phpbb_pilots_city_state.php"  style="text-decoration: underline" target="_blank">here</a>.',
+		1 => 'View it <a href="/forum/phpbb_pilots_city_state.php"  style="text-decoration: underline" target="_blank">here</a>.',
 	),
 	array(
 		0 => 'How can I find a member if I only know the username?',
-		1 => 'Use the \'Find a Member\' function on the Memberlist.  It is quicker than searching alphabetically.  <a href="http://pilotsnpaws.org/forum/find_member.php" style="text-decoration: underline" target ="_blank">Click here</a> to see how it works.',
+		1 => 'Use the \'Find a Member\' function on the Memberlist.  It is quicker than searching alphabetically.  <a href="/forum/find_member.php" style="text-decoration: underline" target ="_blank">Click here</a> to see how it works.',
 	),
 	array(
 		0 => 'How do I keep personal information private?',
-		1 => 'There are levels of privacy. 1) PUBLIC Anything posted on the forum is viewable by members and nonmembers alike, including information in your signature line. Posting contact info publicly is the surest way for other members to reach you, as it does not rely on forum notifications that may go to Spam or be undelivered 2) MEMBERS ONLY Anything included in your user Profile is semi-private, viewable only by registered members who are logged in. 3) MAXIMUM Do not put personal info in posts, signature, or Profile. Tell members to contact you by private message or board mail. The board mail feature does not show the sender your email address (test it, you\'ll see), however your email will show if you reply. You may choose not to give your name, phone number, email, or tail number until you have committed to a flight after being contacted by PM or board mail. The disadvantages of this are, members are unable to reach you if your email address is not utd in your account, and nondelivery of forum emails to some email accounts (sent to Spam or blocked by some ISPs).',
+		1 => 'There are levels of privacy. 1) PUBLIC Anything posted on the forum is viewable by members and nonmembers alike, including information in your signature line. Posting contact info publicly is the surest way for other members to reach you, as it does not rely on forum notifications that may go to Spam or be undelivered 2) MEMBERS ONLY Anything included in your user Profile is semi-private, viewable only by registered members who are logged in. 3) MAXIMUM Do not put personal info in posts, signature, or Profile. Tell members to contact you by private message or board mail. The board mail feature does not show the sender your email address, however your email address will show if you reply. You may choose not to give your name, phone number, email, or tail number until you have committed to a flight after being contacted by PM or board mail. The disadvantages of this are, members are unable to reach you if your email address is not up-to-date in your account, and nondelivery of forum emails to some email accounts (sent to Spam or blocked by some ISPs).',
 	),
 	array(
 		0 => '--',
@@ -68,11 +72,14 @@ $help = array(
 	),
 	array(
 		0 => 'I registered but nobody has contacted me.  What do I need to do?',
-		1 => 'Thank you for joining!  In your User Control Panel under Profile, there is a setting to edit your account so you will receive automatic email notifications of transport requests in your area.  You can also scan the <a href="http://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target="_blank">Ride Board</a> checking for transport requests you might be able to help with.  You can also find transport requests on <a href="http://pilotsnpaws.org/maps/maps_trips.php" style="text-decoration: underline" target="_blank">this map</a>.',
+		1 => 'Thank you for joining!  In your User Control Panel under Profile, there is a setting to edit your account so you will receive automatic email notifications of transport requests in your area.  You can also scan the <a href="/forum/viewforum.php?f=5" style="text-decoration: underline" target="_blank">Ride Board</a> checking for transport requests you might be able to help with.  You can also find transport requests on <a href="/maps/maps_trips.php" style="text-decoration: underline" target="_blank">this map</a>.',
 	),
 	array(
 		0 => 'What documents should I require the rescue to provide?',
-		1 => 'The paperwork we suggest for our pilots to request is a health certificate and an up-to-date proof of vaccine, rabies in particular.  A rabies vaccination (if the dog is old enough) and health certificate are necessary to cross state lines in most states.  It is up to each pilot if they would like any further information.  Click to check the <a href="http://www.aphis.usda.gov/import_export/animals/animal_import/animal_imports_states.shtml" style="text-decoration: underline" target="_blank">requirements</a> for each state the flight will pass through.',
+		1 => 'The paperwork we suggest for our pilots to request is a health certificate and an up-to-date proof of vaccine, rabies in particular.  A rabies 
+vaccination (if the dog is old enough) and health certificate are necessary to cross state lines in most states.  It is up to each pilot if they would like any further 
+information.  Click to check the <a href="http://www.aphis.usda.gov/import_export/animals/animal_import/animal_imports_states.shtml" style="text-decoration: underline" 
+target="_blank">requirements</a> for each state the flight will pass through.',
 	),
 	array(
 		0 => '--',
@@ -84,11 +91,11 @@ $help = array(
 	),
 	array(
 		0 => 'Can I get a discount on fuel for a Pilots N Paws flight?',
-		1 => 'When you go into the FBO to order fuel, mention you are flying for Pilots N Paws and transporting rescue animals and they may offer you a discount.  You can also find a list of FBO\'s offering fuel discounts for PNP flights on the forum under <a href="http://pilotsnpaws.org/forum/viewforum.php?f=14" style="text-decoration: underline" target = "_blank">"FBO\'s who are Pet Friendly, Fuel Discounts"</a>.',
+		1 => 'When you go into the FBO to order fuel, mention you are flying for Pilots N Paws and transporting rescue animals and they may offer you a discount.  You can also find a list of FBO\'s offering fuel discounts for PNP flights on the forum under <a href="/forum/viewforum.php?f=14" style="text-decoration: underline" target = "_blank">"FBO\'s who are Pet Friendly, Fuel Discounts"</a>.',
 	),
 	array(
 		0 => 'How do I document a flight to take advantage of the 501(c)3 deduction?',
-		1 => 'From an IRS point of view, the need for transport has to be posted on this site, and the response from pilots also has to be posted. That qualifies the transport as done "for" Pilots N Paws.  You can keep a record of your transport on the <a href="http://pilotsnpaws.org/flightform_fill-inNEW.pdf" style="text-decoration: underline" target="_blank">Pilots N Paws Flight Record</a>.',
+		1 => 'From an IRS point of view, the need for transport has to be posted on this site, and the response from pilots also has to be posted. That qualifies the transport as done "for" Pilots N Paws.  You can keep a record of your transport on the <a href="/flightform_fill-inNEW.pdf" style="text-decoration: underline" target="_blank">Pilots N Paws Flight Record</a>.',
 	),
 	array(
 		0 => 'What flight-related expenses can I deduct as a charitable donation?',
@@ -144,7 +151,7 @@ tax ID #26-3754228<br>
 	),
 	array(
 		0 => 'How should I sanitize the crates between transports?',
-		1 => 'Dogs and cats can carry viruses or other illnesses that rescues are unaware of at the time of transport.  Crates should be disassembled, scrubbed with detergent, rinsed clean with water, and disinfected with a solution of diluted bleach or Trifectant.  Plane seats also need to be cleaned.  For more complete information <a href="http://pilotsnpaws.org/forum/parvo.php" style="text-decoration: underline" target="_blank">click here</a>.',
+		1 => 'Dogs and cats can carry viruses or other illnesses that rescues are unaware of at the time of transport.  Crates should be disassembled, scrubbed with detergent, rinsed clean with water, and disinfected with a solution of diluted bleach or Trifectant.  Plane seats also need to be cleaned.  For more complete information <a href="/forum/parvo.php" style="text-decoration: underline" target="_blank">click here</a>.',
 	),
 	array(
 		0 => 'Should I walk the dogs for a potty break at the airport between flights?',
@@ -168,7 +175,7 @@ tax ID #26-3754228<br>
 	),
 	array(
 		0 => 'How do I protect dogs from overheating during transport?',
-		1 => '<a href="http://pilotsnpaws.org/forum/overheat.php" style="text-decoration: underline" target ="_blank">Click here</a> to learn how to protect dogs from overheating during transport.',
+		1 => '<a href="/forum/overheat.php" style="text-decoration: underline" target ="_blank">Click here</a> to learn how to protect dogs from overheating during transport.',
 	),
 	array(
 		0 => 'Does Pilots N Paws have an official FAA call sign?',
@@ -180,7 +187,8 @@ tax ID #26-3754228<br>
 	),
 	array(
 		0 => 'What should I know about flying dogs into Canada?',
-		1 => '<a href="http://www.inspection.gc.ca/english/anima/imp/petani/canine.shtml" style="text-decoration: underline" target="_blank">Click here</a> to learn the requirements for importing dogs into Canada.',
+		1 => '<a href="http://www.inspection.gc.ca/english/anima/imp/petani/canine.shtml" style="text-decoration: underline" target="_blank">Click here</a> to 
+learn the requirements for importing dogs into Canada.',
 	),
 	array(
 		0 => 'Can I use a rental plane for transports?',

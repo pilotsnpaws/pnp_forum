@@ -2,21 +2,20 @@ Subject: New password activation
 
 Hello {USERNAME}
 
-A new password for your account on "{SITENAME}" is provided below. 
-Here is how to use it:
- 
-1. Click on this link to activate the new password: {U_ACTIVATE}
+You are receiving this notification because you have (or someone pretending to be you has) requested a new password be sent for your account on "{SITENAME}". If you did not request this notification then please ignore it, if you keep receiving it please contact the board administrator.
 
-2. Log into the forum at http://www.pilotsnpaws.org/forum
+To use the new password you need to activate it. To do this click the link provided below.
 
-3. Use current username and this NEW password: {PASSWORD}
+{U_ACTIVATE}
 
-4. Click Login
- 
-5. If you still receive an error message stating you have exceeded the number of log in attempts, simply answer the code question box, enter your same username and NEW password a SECOND time in the blank boxes above the code box, and click Login.
+If successful you will be able to login using the following password:
 
-You can change your password after logging in by going to your User Control Panel, click on Profile, then Edit Account Settings.
- 
+Password: {PASSWORD}
+
+The password is case sensitive. We recommend that you copy and paste the password to avoid typos.
+You can change this password once you are logged in via the profile page, 
+https://pilotsnpaws.org/forum/ucp.php?i=ucp_profile&mode=reg_details . 
+If you have any difficulties please contact the board 
+administrator.
+
 {EMAIL_SIG}
- 
-

@@ -19,13 +19,17 @@ $help = array(
 		1 => 'POSTING',
 	),
 	array(
+		0 => 'Where are the instructions?',
+		1 => 'Instructions for how to get started are <a href="https://www.pilotsnpaws.org/how-to-use-pnp/rescues/?utm_source=forum&utm_medium=forumlink&utm_campaign=faq" style="text-decoration: underline" target=_blank">here</a>.',
+	),
+	array(
 		0 => 'Where should I post my transport request?',
-		1 => 'Post it in <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Forum software automatically notifies pilots of transport requests in their area when they are posted in <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Transport requests posted anywhere else on the forum will not generate notifications to pilots.
+		1 => 'Post it in <a href="https://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Forum software automatically notifies pilots of transport requests in their area when they are posted in <a href="https://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Transport requests posted anywhere else on the forum will not generate notifications to pilots.
 Transport requests posted in the wrong forum will be moved or removed.',
 	),
 	array(
 		0 => 'May I post more than one request for the same transport?',
-		1 => 'Each transport request should be posted only once on the <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Sending and receiving parties should coordinate with each other to avoid posting duplicate requests for the same transport.  Please do not post a new request for your transport simply because you have not received any replies to your original request, as long as the original request is still on the <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>.',
+		1 => 'Each transport request should be posted only once on the <a href="/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Sending and receiving parties should coordinate with each other to avoid posting duplicate requests for the same transport.  Please do not post a new request for your transport simply because you have not received any replies to your original request, as long as the original request is still on the <a href="/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>.',
 	),
 	array(
 		0 => 'How often do I need to check my transport request for replies?',
@@ -33,23 +37,23 @@ Transport requests posted in the wrong forum will be moved or removed.',
 	),
 	array(
 		0 => 'My request is URGENT! How can I expedite it?',
-		1 => 'Many transport requests on this forum are cases where the lives of animals are at risk. The best thing to do is post your request in <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target ="_blank">Ride Board</a>, provide as much information as you can, be proactive about contacting pilots by email or private message (do not wait for them to contact you), also check <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=29" style="text-decoration: underline" target="_blank">Space on Planned Flights</a> for scheduled flights, log in to the forum daily to check for replies, check your private messages daily, check your email daily, respond to replies from pilots promptly, and have a backup plan ready in case you do not get a flight arranged in time. Transports can take time to put together.  If the animal is in a kill shelter in a distant city, you may need to contact a local rescue there to pull the animal and foster or board it, to allow time for transport arrangements.  Posting in all caps, in red letters, using lots of exclamation marks, or putting "URGENT" in the subject line is not likely to help much. Duplicate postings will be removed by moderators.',
+		1 => 'Many transport requests on this forum are cases where the lives of animals are at risk. The best thing to do is post your request in <a href="https://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target ="_blank">Ride Board</a>, provide as much information as you can, be proactive about contacting pilots by email or private message (do not wait for them to contact you), also check <a href="https://pilotsnpaws.org/forum/viewforum.php?f=29" style="text-decoration: underline" target="_blank">Space on Planned Flights</a> for scheduled flights, log in to the forum daily to check for replies, check your private messages daily, check your email daily, respond to replies from pilots promptly, and have a backup plan ready in case you do not get a flight arranged in time. Transports can take time to put together.  If the animal is in a kill shelter in a distant city, you may need to contact a local rescue there to pull the animal and foster or board it, to allow time for transport arrangements.  Posting in all caps, in red letters, using lots of exclamation marks, or putting "URGENT" in the subject line is not likely to help much. Duplicate postings will be removed by moderators.',
 	),
 	array(
 		0 => 'Should I put my email address and telephone number in my transport request?',
-		1 => 'All personal information contained in posts on the forum is publicly viewable by members and non-members alike.  The forum has 2 features that allow registered members to contact you without posting your email address or telephone number publicly.  These are board email and private messages (PMs).  Go to your User Control Panel (upper left part of the screen), click Board Preferences, set "Users can contact me by e-mail" and "Allow users to send me private messages" to \'YES\', and click SUBMIT.  Email and PM icons appear in your profile and under your name on posts, which can only be used by registered members.  Once a pilot has contacted you by board email or PM, you can give him or her any personal information necessary for the success of your transport.  If you choose to post your email address or telephone number in a message on the public forum for the sake of expediting your transport, you may want to go back and edit it out of your post later when your transport is no longer active.',
+		1 => 'All personal information contained in posts on the forum is publicly viewable by members and nonmembers alike.  The forum has 2 features that allow registered members to contact you without posting your email address or telephone number publicly.  These are board email and private messages (PMs).  Go to your User Control Panel (upper right, in a dropdown under your username), click Board Preferences, set "Users can contact me by e-mail" and "Allow users to send me private messages" to \'YES\', and click SUBMIT.  Email and PM icons, which can only be used by registered members, appear in your profile and under your name on posts.  Once a pilot has contacted you by board email or PM, you can give him or her any personal information necessary for the success of your transport.  If you choose to post your email address or telephone number in a message on the public forum for the sake of expediting your transport, you may want to go back and edit it out of your post later when your transport is no longer active.',
 	),
 	array(
 		0 => 'I need a multi-leg transport. Do I post each leg in a separate message, or all the legs in one message?',
 		1 => 'Either way could be correct.',
 	),
 	array(
-		0 => 'Can 2 rescues double up on a transport?',
-		1 => 'Yes.  First post your transport request on the forum.  Then PM or email the person who posted a similar request and ask them. You might reply on the other thread and mention you have a similar request and put the link for your request in the reply. Then pilots reading the other request will also be aware of your need.',
+		0 => 'How do I cancel my transport request?',
+		1 => 'On your original post click EDIT, then put a dot on the CANCEL icon and click SUBMIT. Do this promptly as soon as you know you need to cancel. Cancelled requests will be removed from <a href="https://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a> by moderators so pilots can focus on active requests.',
 	),
 	array(
-		0 => 'How do I cancel my transport request?',
-		1 => 'On your original post click EDIT, then put a dot on the CANCEL icon and click SUBMIT. Do this promptly as soon as you know you need to cancel. Cancelled requests will be removed from <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a> by moderators so pilots can focus on active requests.',
+		0 => 'Can 2 rescues double up on a transport?',
+		1 => 'Yes.  First post your transport request on the forum.  Then PM or email the person who posted a similar request and ask them. You might reply on the other thread and mention you have a similar request and put the link for your request in the reply. Then pilots reading the other request will also be aware of your need.',
 	),
 	array(
 		0 => 'How promptly should I cancel?',
@@ -65,7 +69,7 @@ Transport requests posted in the wrong forum will be moved or removed.',
 	),
 	array(
 		0 => 'Hooray!!! My transport is completed! Now what?',
-		1 => 'Congratulations! Please click EDIT on your original post and put a dot on the DONE icon and click SUBMIT. This signals moderators to move the topic to <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=8" style="text-decoration: underline" target= "_blank">"Done"</a> forum, to allow pilots to focus on active transports in <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. You can also post an account of your transport, photos, video, and words of thanks to the pilot in <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=7" style="text-decoration: underline" target= "_blank">Success Stories</a> forum if you wish.',
+		1 => 'Congratulations! Please click EDIT on your original post and put a dot on the DONE icon and click SUBMIT. This signals moderators to move the topic to <a href="https://pilotsnpaws.org/forum/viewforum.php?f=8" style="text-decoration: underline" target= "_blank">"Done"</a> forum, to allow pilots to focus on active transports in <a href="https://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. You can also post an account of your transport, photos, video, and words of thanks to the pilot in <a href="https://pilotsnpaws.org/forum/viewforum.php?f=7" style="text-decoration: underline" target= "_blank">Success Stories</a> forum if you wish.',
 	),
 	array(
 		0 => '--',
@@ -73,7 +77,7 @@ Transport requests posted in the wrong forum will be moved or removed.',
 	),
 	array(
 		0 => 'May I contact pilots directly to request a flight?',
-		1 => 'Yes, but post your request in <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a> first.  Most pilots allow rescues to contact them directly about transports in their area. It is a good idea to be proactive and contact pilots by the methods they indicate, rather than just hoping a pilot in your area will see your request on the <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Many pilots do not check the <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a> daily, but may be available to help if contacted.',
+		1 => 'Yes, but post your request in <a href="https://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a> first.  Most pilots allow rescues to contact them directly about transports in their area. It is a good idea to be proactive and contact pilots by the methods they indicate, rather than just hoping a pilot in your area will see your request on the <a href="https://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Many pilots do not check the <a href="https://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a> daily, but may be available to help if contacted.',
 	),
 	array(
 		0 => 'Why post? Can\'t I ask pilots for transport outside the forum if I have their contact information?',
@@ -81,7 +85,7 @@ Transport requests posted in the wrong forum will be moved or removed.',
 	),
 	array(
 		0 => 'What is the best way to contact pilots directly?',
-		1 => 'Pilots indicate the best way to contact them in their profile, commonly by email or PM (private message). Click the pilot\'s profile and look for an email icon or a PM icon. You can also see these icons under the pilot\'s name on posts on the <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Some pilots allow other forms of contact, and if so, those will be indicated in their profile, signature line, or the body of a message.',
+		1 => 'Pilots indicate the best way to contact them in their profile, commonly by email or PM (private message). Click the pilot\'s profile and look for an email icon or a PM icon. You can also see these icons under the pilot\'s name on posts on the <a href="https://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Some pilots allow other forms of contact, and if so, those will be indicated in their profile, signature line, or the body of a message.',
 	),
 	array(
 		0 => 'Why should I email or PM pilots if they\'re automatically notified anyway?',
@@ -93,11 +97,11 @@ Transport requests posted in the wrong forum will be moved or removed.',
 	),
 	array(
 		0 => 'How do I find pilots along my flight route?',
-		1 => 'After you post your transport request on <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target="_blank">Ride Board</a>, you will see colored links at the top of your post.  Click More Mapping Options to get a list of pilots along your flight route.  Names of the pilots are listed on the left side of the screen.  Click the name of a pilot and a bubble will appear with a link to the pilot\'s profile (where contact information is given) along with a link to send the pilot a private message through the forum.  Also be sure to check <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=29" style="text-decoration: underline" target="_blank">Space on Planned Flights</a> for scheduled flights along your flight route.',
+		1 => 'After you post your transport request on <a href="https://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target="_blank">Ride Board</a>, you will see colored links at the top of your post.  Click More Mapping Options to get a list of pilots along your flight route.  Names of the pilots are listed on the left side of the screen.  Click the name of a pilot and a bubble will appear with a link to the pilot\'s profile (where contact information is given) along with a link to send the pilot a private message through the forum.  Also be sure to check <a href="https://pilotsnpaws.org/forum/viewforum.php?f=29" style="text-decoration: underline" target="_blank">Space on Planned Flights</a> for scheduled flights along your flight route.',
 	),
 	array(
 		0 => 'Is there a way to find pilots by zip code?',
-		1 => 'Yes, you can look them up by city and state or by zip code using <a href="http://www.pilotsnpaws.org/forum/phpbb_transport.php" style="text-decoration: underline" target="_blank">this form</a>.',
+		1 => 'Yes, you can look them up by zip code <a href="https://pilotsnpaws.org/maps_more/mapsmore_volunteersZip.php" style="text-decoration: underline" target="_blank">here</a>.',
 	),
 	array(
 		0 => 'Should I only contact pilots near the starting point of the flight?',
@@ -116,16 +120,12 @@ Transport requests posted in the wrong forum will be moved or removed.',
 		1 => 'If you are sending the email through the email icon in the pilot\'s profile, you can only email that pilot.  (For security reasons, the message is sent through a PNP email account to that pilot. Your email address will show and if the pilot chooses to reply, then you will see his or her email address.)  We suggest you copy & paste your message when emailing each pilot.  However, you can PM multiple pilots in one private message if you know their member names.',
 	),
 	array(
-		0 => 'How do I send a private message (PM) to multiple pilots?',
-		1 => 'You can view a video of instructions on how to send a PM to all the pilots along a route <a href="mail-pilots.wmv" style="text-decoration: underline" target="_blank">here</a>.',
-	),
-	array(
 		0 => 'How can I find locations for airports the pilots list, like 8A6 or BGE or KFDK?',
 		1 => '<a href="http://www.airnav.com/airports" style="text-decoration: underline" target="_blank">Click here</a> to look them up.',
 	),
 	array(
 		0 => 'How do I find temp foster or ground support?',
-		1 => 'Check in <a href="http://www.pilotsnpaws.org/forum/viewforum.php?f=13" style="text-decoration: underline" target="_blank">Other Volunteer Offers</a> forum, or look them up by city and state or zip code using <a href="http://www.pilotsnpaws.org/forum/phpbb_transport.php" style="text-decoration: underline" target="_blank">this form</a>, or find them on <a href="http://www.pilotsnpaws.org/maps/maps_volunteers.php" style="text-decoration: underline" target="_blank">this map</a>.',
+		1 => 'Check in <a href="https://pilotsnpaws.org/forum/viewforum.php?f=13" style="text-decoration: underline" target="_blank">Other Volunteer Offers</a> forum, or look them up by zip code using <a href="https://pilotsnpaws.org/maps_more/mapsmore_volunteersZip.php" style="text-decoration: underline" target="_blank">this form</a>, or find them on <a href="http://www.pilotsnpaws.org/maps/maps_volunteers.php" style="text-decoration: underline" target="_blank">this map</a>.',
 	),
 	array(
 		0 => 'How can I make a good impression on pilots?',
@@ -141,7 +141,7 @@ Transport requests posted in the wrong forum will be moved or removed.',
 	),
 	array(
 		0 => 'How does commercial airline transport compare to PNP transport?',
-		1 => '<a href="http://www.pilotsnpaws.org/forum/commercial.php" style="text-decoration: underline" target ="_blank">Click here</a> to learn more about commercial airline transport and how it compares to Pilots N Paws transport.',
+		1 => '<a href="https://www.pilotsnpaws.org/forum/page/commercial" style="text-decoration: underline" target ="_blank">Click here</a> to learn more about commercial airline transport and how it compares to Pilots N Paws transport.',
 	),
 	array(
 		0 => 'How do I prepare the pet for the flight?',
