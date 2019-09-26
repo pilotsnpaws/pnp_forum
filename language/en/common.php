@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'en-gb',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 1,
 
@@ -60,17 +60,8 @@ $lang = array_merge($lang, array(
 	'6_MONTHS'		=> '6 months',
 	'7_DAYS'		=> '7 days',
 
-// PNP additions
-
-	'MAP'					=> 'Transport Map',
-	'VOLUNTEERS'				=> 'Volunteer Map',
-
-// End PNP additions
-
-
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Your account has already been activated.',
 	'ACCOUNT_DEACTIVATED'			=> 'Your account has been manually deactivated and is only able to be reactivated by an administrator.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'Your account has not been activated yet.',
 	'ACP'							=> 'Administration Control Panel',
 	'ACP_SHORT'						=> 'ACP',
 	'ACTIVE'						=> 'active',
@@ -89,8 +80,9 @@ $lang = array_merge($lang, array(
 	'ALL_FORUMS'					=> 'All forums',
 	'ALL_MESSAGES'					=> 'All messages',
 	'ALL_POSTS'						=> 'All posts',
-	'ALL_TIMES'						=> 'All times are <abbr title="%2$s">%1$s</abbr>',
+	'ALL_TIMES'						=> 'All times are <span title="%2$s">%1$s</span>',
 	'ALL_TOPICS'					=> 'All Topics',
+	'ALT_TEXT'						=> 'Alternative text',
 	'AND'							=> 'And',
 	'ARE_WATCHING_FORUM'			=> 'You have subscribed to be notified of new posts in this forum.',
 	'ARE_WATCHING_TOPIC'			=> 'You have subscribed to be notified of new posts in this topic.',
@@ -105,6 +97,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuth token not stored.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'OAuth token incorrectly stored.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'The upload was rejected because the uploaded file was identified as a possible attack vector.',
@@ -113,11 +106,13 @@ $lang = array_merge($lang, array(
 	'AVATAR_EMPTY_FILEUPLOAD'		=> 'The uploaded avatar file is empty.',
 	'AVATAR_INVALID_FILENAME'		=> '%s is an invalid filename.',
 	'AVATAR_NOT_UPLOADED'			=> 'Avatar could not be uploaded.',
+	'AVATAR_NO_TEMP_DIR'			=> 'Temporary folder could not be found or is not writable.',
 	'AVATAR_NO_SIZE'				=> 'The width or height of the linked avatar could not be determined. Please enter them manually.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'The specified file was only partially uploaded.',
 	'AVATAR_PHP_SIZE_NA'			=> 'The avatar’s filesize is too large.<br />The maximum allowed filesize set in php.ini could not be determined.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'The avatar’s filesize is too large. The maximum allowed upload size is %1$d %2$s.<br />Please note this is set in php.ini and cannot be overridden.',
 	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'The specified avatar could not be uploaded because the request timed out.',
+	'AVATAR_PHP_UPLOAD_STOPPED'		=> 'A PHP extension has stopped the file upload.',
 	'AVATAR_URL_INVALID'			=> 'The URL you specified is invalid.',
 	'AVATAR_URL_NOT_FOUND'			=> 'The file specified could not be found.',
 	'AVATAR_WRONG_FILESIZE'			=> 'The avatar’s filesize must be between 0 and %1$d %2$s.',
@@ -142,8 +137,10 @@ $lang = array_merge($lang, array(
 		1	=> 'Users browsing this forum: %2$s and %1$d guest',
 		2	=> 'Users browsing this forum: %2$s and %1$d guests',
 	),
+	'BUTTON_DELETE'         => 'Delete',
 	'BUTTON_EDIT'			=> 'Edit',
 	'BUTTON_FORUM_LOCKED'	=> 'Locked',
+	'BUTTON_INFORMATION'    => 'Information',
 	'BUTTON_NEW_TOPIC'		=> 'New Topic',
 	'BUTTON_PM'				=> 'PM',
 	'BUTTON_PM_FORWARD'		=> 'Forward',
@@ -152,7 +149,9 @@ $lang = array_merge($lang, array(
 	'BUTTON_PM_REPLY_ALL'	=> 'Reply All',
 	'BUTTON_POST_REPLY'		=> 'Post Reply',
 	'BUTTON_QUOTE'			=> 'Quote',
+	'BUTTON_REPORT'         => 'Report',
 	'BUTTON_TOPIC_LOCKED'	=> 'Locked',
+	'BUTTON_WARN'           => 'Warn',
 	'BYTES'					=> 'Bytes',
 	'BYTES_SHORT'			=> 'B',
 
@@ -182,6 +181,10 @@ $lang = array_merge($lang, array(
 	'CONTACT'				=> 'Contact',
 	'CONTACT_USER'			=> 'Contact %s',
 	'CONTACT_US'			=> 'Contact us',
+	'COOKIE_CONSENT_INFO'	=> 'Learn more',
+	'COOKIE_CONSENT_MSG'	=> 'This website uses cookies to ensure you get the best experience on our website.',
+	'COOKIE_CONSENT_OK'		=> 'Got it!',
+	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
 	'COOKIES_DELETED'		=> 'All board cookies successfully deleted.',
 	'CURRENT_TIME'			=> 'It is currently %s',
 
@@ -189,7 +192,7 @@ $lang = array_merge($lang, array(
 	'DAYS'					=> 'Days',
 	'DELETE'				=> 'Delete',
 	'DELETE_ALL'			=> 'Delete all',
-	'DELETE_COOKIES'		=> 'Delete all board cookies',
+	'DELETE_COOKIES'		=> 'Delete cookies',
 	'DELETE_MARKED'			=> 'Delete marked',
 	'DELETE_POST'			=> 'Delete post',
 	'DELIMITER'				=> 'Delimiter',
@@ -237,6 +240,7 @@ $lang = array_merge($lang, array(
 	'FACEBOOK'				=> 'Facebook',
 	'FAQ'					=> 'FAQ',
 	'FAQ_EXPLAIN'			=> 'Frequently Asked Questions',
+	'FEATURE_NOT_AVAILABLE' => 'The requested feature is not available on this board.',
 	'FILENAME'				=> 'Filename',
 	'FILESIZE'				=> 'File size',
 	'FILEDATE'				=> 'File date',
@@ -247,10 +251,6 @@ $lang = array_merge($lang, array(
 	'FIND_USERNAME'			=> 'Find a member',
 	'FOLDER'				=> 'Folder',
 	'FORGOT_PASS'			=> 'I forgot my password',
-//-- mod : Forgot username ------------------------------------------------------------
-//-- add
-	'FORGOT_USERNAME'		=> 'I forgot my username',
-//-- fin mod : Forgot username --------------------------------------------------------
 	'FORM_INVALID'			=> 'The submitted form was invalid. Try submitting again.',
 	'FORUM'					=> 'Forum',
 	'FORUMS'				=> 'Forums',
@@ -348,6 +348,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'Interests',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Invalid digest challenge.',
 	'INVALID_EMAIL_LOG'			=> '<strong>%s</strong> possibly an invalid email address?',
+	'INVALID_FEED_ATTACHMENTS'	=> 'The selected feed tried fetching attachments with invalid constraints.',
 	'INVALID_PLURAL_RULE'		=> 'The chosen plural rule is invalid. Valid values are integers between 0 and 15.',
 	'IP'						=> 'IP',
 	'IP_BLACKLISTED'			=> 'Your IP %1$s has been blocked because it is blacklisted. For details please see <a href="%2$s">%2$s</a>.',
@@ -406,7 +407,7 @@ $lang = array_merge($lang, array(
 	'MIB'					=> 'MiB',
 	'MCP'					=> 'Moderator Control Panel',
 	'MCP_SHORT'				=> 'MCP',
-	'MEMBERLIST'			=> 'Find user',
+	'MEMBERLIST'			=> 'Members',
 	'MEMBERLIST_EXPLAIN'	=> 'View complete list of members',
 	'MERGE'					=> 'Merge',
 	'MERGE_POSTS'			=> 'Move posts',
@@ -460,6 +461,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_FORUM'				=> '<em>Forum:</em> %1$s',
 	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Group request</strong> from %1$s to join the group %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> '<strong>Group request approved</strong> to join the group %1$s.',
+	'NOTIFICATION_METHOD_INVALID'		=> 'The method "%s" does not refer to a valid notification method.',
 	'NOTIFICATION_PM'					=> '<strong>Private Message</strong> from %1$s:',
 	'NOTIFICATION_POST'					=> array(
 		1	=> '<strong>Reply</strong> from %1$s in topic:',
@@ -529,8 +531,6 @@ $lang = array_merge($lang, array(
 	'NO_USER'					=> 'The requested user does not exist.',
 	'NO_USERS'					=> 'The requested users do not exist.',
 	'NO_USER_SPECIFIED'			=> 'No username was specified.',
-	'NO_VIEW_PILOT_MOD'			=> 'You are not authorized to view the pilot instructions page. Please contact the site administrator for more information',
-	'NO_VIEW_RESCUE_MOD'		=> 'You are not authorized to view the rescue instructions page. Please contact the site administrator for more information',
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
 	'NUM_ATTACHMENTS'		=> array(
@@ -559,18 +559,15 @@ $lang = array_merge($lang, array(
 	),
 	'OPTIONS'					=> 'Options',
 
+	'PAGE_NOT_FOUND'		=> 'The requested page could not be found.',
 	'PAGE_OF'				=> 'Page <strong>%1$d</strong> of <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER'		=> 'Page %s',
 	'PASSWORD'				=> 'Password',
-	'PILOT_EXPLAIN'			=> 'Pilot instructions',
-	'PILOT'					=> 'Pilot FAQ',
-	'PILOT_PAGE'            => 'Pilot instructions',
 	'PIXEL'					=> 'px',
 	'PIXELS'				=> array(
 		1	=> '%d pixel',
 		2	=> '%d pixels',
 	),
-	'PLAY_QUICKTIME_FILE'	=> 'Play Quicktime file',
 	'PLEASE_WAIT'			=> 'Please wait.',
 	'PM'					=> 'PM',
 	'PM_REPORTED'			=> 'Click to view report',
@@ -610,6 +607,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS'				=> 'Previous',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Previous',
 	'PRIVACY'				=> 'Privacy policy',
+	'PRIVACY_LINK'			=> 'Privacy',
 	'PRIVATE_MESSAGE'		=> 'Private message',
 	'PRIVATE_MESSAGES'		=> 'Private messages',
 	'PRIVATE_MESSAGING'		=> 'Private messaging',
@@ -638,18 +636,15 @@ $lang = array_merge($lang, array(
 		1	=> '%d registered',
 		2	=> '%d registered',
 	),
-	'REMOVE'			=> 'Remove',
-	'REMOVE_INSTALL'		=> 'Please delete, move or rename the install directory before you use your board. If this directory is still present, only the Administration Control Panel (ACP) will be accessible.',
-	'REPLIES'			=> 'Replies',
-	'REPLY_WITH_QUOTE'		=> 'Reply with quote',
+	'REMOVE'					=> 'Remove',
+	'REMOVE_INSTALL'			=> 'Please delete, move or rename the install directory before you use your board. If this directory is still present, only the Administration Control Panel (ACP) will be accessible.',
+	'REPLIES'					=> 'Replies',
+	'REPLY_WITH_QUOTE'			=> 'Reply with quote',
 	'REPLYING_GLOBAL_ANNOUNCE'	=> 'Replying to global announcement',
-	'REPLYING_MESSAGE'		=> 'Replying to message in %s',
-	'REPORT_BY'			=> 'Report by',
-	'REPORT_POST'			=> 'Report this post',
-	'REPORTING_POST'		=> 'Reporting post',
-	'RESCUE_EXPLAIN'		=> 'Rescue instructions',
-	'RESCUE'			=> 'Rescue FAQ',
-	'RESCUE_PAGE'         		=> 'Rescue instructions',
+	'REPLYING_MESSAGE'			=> 'Replying to message in %s',
+	'REPORT_BY'					=> 'Report by',
+	'REPORT_POST'				=> 'Report this post',
+	'REPORTING_POST'			=> 'Reporting post',
 	'RESEND_ACTIVATION'			=> 'Resend activation email',
 	'RESET'						=> 'Reset',
 	'RESTORE_PERMISSIONS'		=> 'Restore permissions',
@@ -690,8 +685,6 @@ $lang = array_merge($lang, array(
 	'SEARCH_FOR'				=> 'Search for',
 	'SEARCH_FORUM'				=> 'Search this forum…',
 	'SEARCH_NEW'				=> 'New posts',
-	'SEARCH_PILOTS_AID'			=> 'Find pilots by airport',
-	'SEARCH_PILOTS_ZIP'			=> 'Find pilots by zipcode',
 	'SEARCH_POSTS_BY'			=> 'Search posts by',
 	'SEARCH_SELF'				=> 'Your posts',
 	'SEARCH_TOPIC'				=> 'Search this topic…',
@@ -713,10 +706,13 @@ $lang = array_merge($lang, array(
 	'SKYPE'						=> 'Skype',
 	'SMTP_NO_AUTH_SUPPORT'		=> 'SMTP server does not support authentication.',
 	'SORRY_AUTH_READ'			=> 'You are not authorised to read this forum.',
+	'SORRY_AUTH_READ_TOPIC'		=> 'You are not authorised to read this topic.',
 	'SORRY_AUTH_VIEW_ATTACH'	=> 'You are not authorised to download this attachment.',
 	'SORT_BY'					=> 'Sort by',
+	'SORT_DIRECTION'			=> 'Direction',
 	'SORT_JOINED'				=> 'Joined date',
 	'SORT_LOCATION'				=> 'Location',
+	'SORT_OPTIONS'				=> 'Display and sorting options',
 	'SORT_RANK'					=> 'Rank',
 	'SORT_POSTS'				=> 'Posts',
 	'SORT_TOPIC_TITLE'			=> 'Topic title',
@@ -736,6 +732,7 @@ $lang = array_merge($lang, array(
 	'SUBMIT'					=> 'Submit',
 
 	'TB'				=> 'TB',
+	'TERMS_LINK'		=> 'Terms',
 	'TERMS_USE'			=> 'Terms of use',
 	'TEST_CONNECTION'	=> 'Test connection',
 	'THE_TEAM'			=> 'The team',
@@ -783,6 +780,10 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'		=> 'Topic review',
 	'TOPIC_TITLE'		=> 'Topic title',
 	'TOPIC_UNAPPROVED'	=> 'This topic has not been approved.',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Topic awaiting approval',
+		2	=> 'Topics awaiting approval',
+	),
 	'TOPIC_DELETED'		=> 'This topic has been deleted.',
 	'TOTAL_ATTACHMENTS'	=> 'Attachment(s)',
 	'TOTAL_LOGS'		=> array(
@@ -885,7 +886,6 @@ $lang = array_merge($lang, array(
 	'WEBSITE'			=> 'Website',
 	'WHOIS'				=> 'Whois',
 	'WHO_IS_ONLINE'		=> 'Who is online',
-	'WLM'				=> 'WLM',
 	'WRONG_PASSWORD'	=> 'You entered an incorrect password.',
 
 	'WRONG_DATA_COLOUR'			=> 'The colour value you entered is invalid.',

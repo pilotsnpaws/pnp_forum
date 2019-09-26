@@ -12,10 +12,6 @@ If successful you will be able to login using the following password:
 
 Password: {PASSWORD}
 
-The password is case sensitive. We recommend that you copy and paste the password to avoid typos.
-You can change this password once you are logged in via the profile page, 
-https://pilotsnpaws.org/forum/ucp.php?i=ucp_profile&mode=reg_details . 
-If you have any difficulties please contact the board 
-administrator.
+You can of course change this password yourself via the profile page. If you have any difficulties please contact the board administrator.
 
 {EMAIL_SIG}

@@ -38,25 +38,11 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Pilots N Paws is a community of volunteers, and we do not actively monitor forum postings. Pilots N Paws will not be held responsible for the content of any message posted on the Pilots N Paws discussion board.<br />
-<br />
-Volunteers are encouraged to use the Pilots N Paws discussion board to arrange rescue transports, post their rescue stories, connect with other animal activists, and discuss issues relating to aviation and animals. To keep our community a productive and safe place, we ask that you please respect our rules. The rules apply to public posts, private messages, and email sent through the board mail feature. These rules may be modified from time to time, and we ask that you please check this page regularly.<br />
-<br />
-• All rescue flights arranged through the Pilots N Paws discussion board are considered flights facilitated by Pilots N Paws. Volunteers may not use the Pilots N Paws discussion board to solicit funds or promote the services of any other animal rescue, sheltering or transportation organization, including but not limited to posting links or third-party organization names and links in signature blocks, without the express permission of Pilots N Paws.<br />
-<br />
-• No profanity, racist or sexist comments. This includes using abbreviations or changing one letter of a swear word such that the word(s) are still interpreted by most as profane.<br />
-<br />
-• No pornographic or obscene material of any kind. Any user posting pornographic pictures, or links to such material will be prohibited from participating in PNP activities.<br />
-<br />
-• Members should post in a way that is respectful of other users. Harassing another poster or making derogatory comments about or to another volunteer may lead to disqualification from further participation in PNP activities.<br />
-<br />
-• No posting or distribution of any material that infringes and/or violates any right of a third party or any law. This includes the improper use of trademarks or copyrighted material. You are fully responsible for any information that is posted on the discussion board.<br />
-<br />
-• Please make posts in the relevant forum. Users are asked to read the forum descriptions before posting. Spamming and excessive off topic posting is not permitted and may result in being prohibited from participating in PNP activities.<br />
-<br />
-• Pilots N Paws moderators reserve the right to edit or remove any post at any time for any reason, and volunteers who do not respect our rules risk being banned from participating in PNP activities. There may be no warning or explanation, and decisions are based on the moderator’s discretion and judgment. Of course, in almost all cases we will attempt to notify and work with you before prohibiting you from participating in PNP activities.<br />
-<br />
-• If you see anything on the forum that you believe violates one of the above rules, please do not hesitate to bring it to our attention!
+	'TERMS_OF_USE_CONTENT'	=> 'By accessing “%1$s” (hereinafter “we”, “us”, “our”, “%1$s”, “%2$s”), you agree to be legally bound by the following terms. If you do not agree to be legally bound by all of the following terms then please do not access and/or use “%1$s”. We may change these at any time and we’ll do our utmost in informing you, though it would be prudent to review this regularly yourself as your continued usage of “%1$s” after changes mean you agree to be legally bound by these terms as they are updated and/or amended.<br />
+	<br />
+	Our forums are powered by phpBB (hereinafter “they”, “them”, “their”, “phpBB software”, “www.phpbb.com”, “phpBB Limited”, “phpBB Teams”) which is a bulletin board solution released under the “<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (hereinafter “GPL”) and can be downloaded from <a href="https://www.phpbb.com/">www.phpbb.com</a>. The phpBB software only facilitates internet based discussions; phpBB Limited is not responsible for what we allow and/or disallow as permissible content and/or conduct. For further information about phpBB, please see: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
+	<br />
+	You agree not to post any abusive, obscene, vulgar, slanderous, hateful, threatening, sexually-orientated or any other material that may violate any laws be it of your country, the country where “%1$s” is hosted or International Law. Doing so may lead to you being immediately and permanently banned, with notification of your Internet Service Provider if deemed required by us. The IP address of all posts are recorded to aid in enforcing these conditions. You agree that “%1$s” have the right to remove, edit, move or close any topic at any time should we see fit. As a user you agree to any information you have entered to being stored in a database. While this information will not be disclosed to any third party without your consent, neither “%1$s” nor phpBB shall be held responsible for any hacking attempt that may lead to the data being compromised.
 	',
 
 	'PRIVACY_POLICY'		=> 'This policy explains in detail how “%1$s” along with its affiliated companies (hereinafter “we”, “us”, “our”, “%1$s”, “%2$s”) and phpBB (hereinafter “they”, “them”, “their”, “phpBB software”, “www.phpbb.com”, “phpBB Limited”, “phpBB Teams”) use any information collected during any session of usage by you (hereinafter “your information”).<br />
@@ -114,6 +100,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Upload avatar',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Upload your own custom avatar.',
 	'AVATAR_EXPLAIN'				=> 'Maximum dimensions; width: %1$s, height: %2$s, file size: %3$.2f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Maximum dimensions; width: %1$s, height: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'The avatar functionality is currently disabled.',
 	'AVATAR_GALLERY'				=> 'Local gallery',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Could not upload avatar to %s.',
@@ -200,10 +187,6 @@ $lang = array_merge($lang, array(
 	'EDIT_DRAFT_EXPLAIN'		=> 'Here you are able to edit your draft. Drafts do not contain attachment and poll information.',
 	'EMAIL_BANNED_EMAIL'		=> 'The email address you entered is not allowed to be used.',
 	'EMAIL_REMIND'				=> 'This must be the email address associated with your account. If you have not changed this via your user control panel then it is the email address you registered your account with.',
-//-- mod : Forgot username ------------------------------------------------------------
-//-- add
-	'EMAIL_REMIND_USERNAME'		=> 'Type the e-mail address that is on your forum account into the box, and your username will be sent to you.',
-//-- fin mod : Forgot username --------------------------------------------------------
 	'EMAIL_TAKEN_EMAIL'			=> 'The entered email address is already in use.',
 	'EMPTY_DRAFT'				=> 'You must enter a message to submit your changes.',
 	'EMPTY_DRAFT_TITLE'			=> 'You must enter a draft title.',
@@ -289,6 +272,7 @@ $lang = array_merge($lang, array(
 	'IMPORTANT_NEWS'			=> 'Important announcements',
 	'INVALID_USER_BIRTHDAY'			=> 'The entered birthday is not a valid date.',
 	'INVALID_CHARS_USERNAME'	=> 'The username contains forbidden characters.',
+	'INVALID_EMOJIS_USERNAME'	=> 'The username contains forbidden characters (Emoji).',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'The password does not contain the required characters.',
 	'ITEMS_REQUIRED'			=> 'The items marked with * are required profile fields and need to be filled out.',
 
@@ -319,6 +303,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> 'Message successfully edited.',
 	'MESSAGE_HISTORY'				=> 'Message history',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'This message was deleted by its author.',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'Reported message',
 	'MESSAGE_SENT_ON'				=> 'on',
 	'MESSAGE_STORED'				=> 'This message has been sent successfully.',
 	'MESSAGE_TO'					=> 'To',
@@ -345,6 +330,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_GROUP_MODERATION'						=> 'Moderation Notifications',
 	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Administration Notifications',
 	'NOTIFICATION_GROUP_POSTING'						=> 'Posting Notifications',
+	'NOTIFICATION_METHOD_BOARD'							=> 'Notifications',
 	'NOTIFICATION_METHOD_EMAIL'							=> 'Email',
 	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
 	'NOTIFICATION_TYPE'									=> 'Notification type',
@@ -389,10 +375,10 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_EDIT_MESSAGE'			=> 'You are not authorised to edit private messages.',
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'You are not authorised to forward private messages.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'You are not authorised to send private messages to groups.',
-	'NO_AUTH_PASSWORD_REMINDER'		=> 'You are not authorised to request a new password.',
 	'NO_AUTH_PROFILEINFO'			=> 'You are not authorised to change your profile information.',
 	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'You are not authorised to read private messages that are on hold.',
 	'NO_AUTH_READ_MESSAGE'			=> 'You are not authorised to read private messages.',
+	'NO_AUTH_PRINT_MESSAGE'			=> 'You are not authorised to print private messages.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'You are not able to read this message because it was removed by the author.',
 	'NO_AUTH_SEND_MESSAGE'			=> 'You are not authorised to send private messages.',
 	'NO_AUTH_SIGNATURE'				=> 'You are not authorised to define a signature.',
@@ -402,6 +388,7 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS_SELECTED'		=> 'You have selected no bookmarks.',
 	'NO_EDIT_READ_MESSAGE'		=> 'Private message cannot be edited because it has already been read.',
 	'NO_EMAIL_USER'				=> 'The email/username information submitted could not be found.',
+	'EMAIL_NOT_UNIQUE'			=> 'Email you specified is used by multiple users. You must specify username as well.',
 	'NO_FOES'					=> 'No foes currently defined',
 	'NO_FRIENDS'				=> 'No friends currently defined',
 	'NO_FRIENDS_OFFLINE'		=> 'No friends offline',
@@ -427,7 +414,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Password must be between %1$s and %2$s long, must contain letters in mixed case, must contain numbers and must contain symbols.',
 	'PASSWORD'					=> 'Password',
 	'PASSWORD_ACTIVATED'		=> 'Your new password has been activated.',
-	'PASSWORD_UPDATED'			=> 'A new password was sent to your registered email address.',
+	'PASSWORD_UPDATED_IF_EXISTED'	=> 'If your account exists, a new password was sent to your registered email address. If you do not receive an email, it may be because you are banned, your account is not activated, or you are not allowed to change your password. Contact admin if any of those reasons apply. Also, check your spam filter.',
 	'PERMISSIONS_RESTORED'		=> 'Successfully restored original permissions.',
 	'PERMISSIONS_TRANSFERRED'	=> 'Successfully transferred permissions from <strong>%s</strong>, you are now able to browse the board with this user’s permissions.<br />Please note that admin permissions were not transferred. You are able to revert to your permission set at any time.',
 	'PM_DISABLED'				=> 'Private messaging has been disabled on this board.',
@@ -490,10 +477,6 @@ $lang = array_merge($lang, array(
 	'SAME_PASSWORD_ERROR'		=> 'The new password you entered is the same as your current password.',
 	'SEARCH_YOUR_POSTS'			=> 'Show your posts',
 	'SEND_PASSWORD'				=> 'Send password',
-//-- mod : Forgot username ------------------------------------------------------------
-//-- add
-	'SEND_USERNAME'				=> 'Send username',
-//-- fin mod : Forgot username --------------------------------------------------------
 	'SENT_AT'					=> 'Sent',			// Used before dates in private messages
 	'SHOW_EMAIL'				=> 'Users can contact me by email',
 	'SIGNATURE_EXPLAIN'			=> 'This is a block of text that can be added to posts you make. There is a %d character limit.',
@@ -578,10 +561,6 @@ $lang = array_merge($lang, array(
 	'UCP_PASSWORD_RESET_DISABLED'	=> 'The password reset functionality has been disabled. If you need help accessing your account, please contact the %sBoard Administrator%s',
 	'UCP_REGISTER_DISABLE'			=> 'Creating a new account is currently not possible.',
 	'UCP_REMIND'					=> 'Send password',
-//-- mod : Forgot username ------------------------------------------------------------
-//-- add
-	'UCP_REMIND_USERNAME'		    => 'Send me my username',
-//-- fin mod : Forgot username --------------------------------------------------------
 	'UCP_RESEND'					=> 'Send activation email',
 	'UCP_WELCOME'					=> 'Welcome to the User Control Panel. From here you can monitor, view and update your profile, preferences, subscribed forums and topics. You can also send messages to other users (if permitted). Please ensure you read any announcements before continuing.',
 	'UCP_ZEBRA'						=> 'Friends &amp; Foes',
@@ -601,10 +580,6 @@ $lang = array_merge($lang, array(
 	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Length must be between %1$s and %2$s.',
 	'USERNAME_TAKEN_USERNAME'		=> 'The username you entered is already in use, please select an alternative.',
 	'USERNAME_DISALLOWED_USERNAME'	=> 'The username you entered has been disallowed or contains a disallowed word. Please choose a different name.',
-//-- mod : Forgot username ------------------------------------------------------------
-//-- add
-	'USERNAME_SENT'					=> 'Your username has been sent to your registered e-mail address.',
-//-- fin mod : Forgot username --------------------------------------------------------
 	'USER_NOT_FOUND_OR_INACTIVE'	=> 'The usernames you specified could either not be found or are not activated users.',
 
 	'VIEW_AVATARS'				=> 'Display avatars',
