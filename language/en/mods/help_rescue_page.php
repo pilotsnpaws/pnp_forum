@@ -25,7 +25,10 @@ $help = array(
 	array(
 		0 => 'Where should I post my transport request?',
 		1 => 'Post it in <a href="https://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Forum software automatically notifies pilots of transport requests in their area when they are posted in <a href="https://pilotsnpaws.org/forum/viewforum.php?f=5" style="text-decoration: underline" target= "_blank">Ride Board</a>. Transport requests posted anywhere else on the forum will not generate notifications to pilots.
-Transport requests posted in the wrong forum will be moved or removed.',
+Transport requests posted in the wrong forum will be moved or removed.
+
+When posting, fill in the fields that are provided. Do not remove fields and provide as much detail as possible. 
+Do not use ALL CAPS in subject lines or the detail.',
 	),
 	array(
 		0 => 'May I post more than one request for the same transport?',

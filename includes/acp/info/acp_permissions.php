@@ -1,16 +1,16 @@
 <?php
 /**
 *
-* @package acp
-* @version $Id: acp_permissions.php 9887 2009-07-28 22:09:46Z bantu $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
-/**
-* @package module_install
-*/
 class acp_permissions_info
 {
 	function module()
@@ -50,5 +50,3 @@ class acp_permissions_info
 	{
 	}
 }
-
-?>

@@ -126,7 +126,8 @@ function request_var($var_name, $default, $multibyte = false, $cookie = false, $
 		$tmp_request = new \phpbb\request\request(new \phpbb\request\type_cast_helper(), false);
 	}
 
-	return $tmp_request->variable($var_name, $default, $multibyte, ($cookie) ? \phpbb\request\request_interface::COOKIE : \phpbb\request\request_interface::REQUEST);
+	return $tmp_request->variable($var_name, $default, $multibyte, ($cookie) ? 
+\phpbb\request\request_interface::COOKIE : \phpbb\request\request_interface::REQUEST);
 }
 
 /**
@@ -3048,6 +3049,10 @@ function login_box($redirect = '', $l_explain = '', $l_success = '', $admin = fa
 		'LOGIN_EXPLAIN'		=> $l_explain,
 
 		'U_SEND_PASSWORD' 		=> ($config['email_enable']) ? append_sid("{$phpbb_root_path}ucp.$phpEx", 'mode=sendpassword') : '',
+//-- mod : Forgot username ------------------------------------------------------------
+//-- add
+		'U_REMIND_USERNAME' 	=> ($config['email_enable']) ? append_sid("{$phpbb_root_path}ucp.$phpEx", 'mode=sendusername') : '',
+//-- fin mod : Forgot username --------------------------------------------------------
 		'U_RESEND_ACTIVATION'	=> ($config['require_activation'] == USER_ACTIVATION_SELF && $config['email_enable']) ? append_sid("{$phpbb_root_path}ucp.$phpEx", 'mode=resend_act') : '',
 		'U_TERMS_USE'			=> append_sid("{$phpbb_root_path}ucp.$phpEx", 'mode=terms'),
 		'U_PRIVACY'				=> append_sid("{$phpbb_root_path}ucp.$phpEx", 'mode=privacy'),
@@ -5191,6 +5196,15 @@ function page_header($page_title = '', $display_online_list = false, $item_id = 
 		'U_USER_PROFILE'		=> get_username_string('profile', $user->data['user_id'], $user->data['username'], $user->data['user_colour']),
 		'U_MODCP'				=> append_sid("{$phpbb_root_path}mcp.$phpEx", false, true, $user->session_id),
 		'U_FAQ'					=> append_sid("{$phpbb_root_path}faq.$phpEx"),
+
+// PNP additions start
+        'U_PILOT'                               => append_sid("{$phpbb_root_path}faq.$phpEx", 'mode=pilot'),
+        'U_RESCUE'                              => append_sid("{$phpbb_root_path}faq.$phpEx", 'mode=rescue'),
+        'S_HIDE_PILOTMOD'               => $auth->acl_get('u_pilotpage_mod'),
+        'S_HIDE_RESCUEMOD'              => $auth->acl_get('u_rescuepage_mod'),
+        'S_USER_EMAIL'                  => $user->data['user_email'],
+// PNP additions end
+
 		'U_SEARCH_SELF'			=> append_sid("{$phpbb_root_path}search.$phpEx", 'search_id=egosearch'),
 		'U_SEARCH_NEW'			=> append_sid("{$phpbb_root_path}search.$phpEx", 'search_id=newposts'),
 		'U_SEARCH_UNANSWERED'	=> append_sid("{$phpbb_root_path}search.$phpEx", 'search_id=unanswered'),
