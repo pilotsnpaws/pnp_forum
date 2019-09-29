@@ -248,6 +248,13 @@ $forum_id	= (!empty($post_data['forum_id'])) ? (int) $post_data['forum_id'] : (i
 $topic_id	= (!empty($post_data['topic_id'])) ? (int) $post_data['topic_id'] : (int) $topic_id;
 $post_id	= (!empty($post_data['post_id'])) ? (int) $post_data['post_id'] : (int) $post_id;
 
+//PNP Addition:  Boolean for if a the current forum is a transfers enabled thread or not
+	$pnpflight = (($forum_id == 29 ) && ($mode == 'post' || ($mode == 'edit' && $post_data['topic_first_post_id'] == $post_data['post_id'])));
+	$pnp5k = (($forum_id == 15 ) && ($mode == 'post' || ($mode == 'edit' && $post_data['topic_first_post_id'] == $post_data['post_id'])));
+	$pnptransport = (($forum_id == 5 ) && ($mode == 'post' || ($mode == 'edit' && $post_data['topic_first_post_id'] == 
+$post_data['post_id'])));
+// end PNP addition
+
 // Need to login to passworded forum first?
 if ($post_data['forum_password'])
 {
@@ -872,6 +879,17 @@ if ($submit || $preview || $refresh)
 	$post_data['enable_urls']		= (isset($_POST['disable_magic_url'])) ? 0 : 1;
 	$post_data['enable_sig']		= (!$config['allow_sig'] || !$auth->acl_get('f_sigs', $forum_id) || !$auth->acl_get('u_sig')) ? false : ((isset($_POST['attach_sig']) && $user->data['is_registered']) ? true : false);
 
+// PNP additions
+	$post_data['pnp_sendZip']		= (string)request_var('pnp_sendZip', (string)0); 
+	$post_data['pnp_recZip']		= (string)request_var('pnp_recZip', (string)0);
+	$post_data['pnp_sendName']		= (string)request_var('pnp_sendName', " ");
+	$post_data['pnp_recName']		= (string)request_var('pnp_recName', " ");
+	$post_data['pnp_sendPhone']		= (string)request_var('pnp_sendPhone', (string)0);
+	$post_data['pnp_recPhone']		= (string)request_var('pnp_recPhone', (string)0);
+	$post_data['pnp_sendEmail']		= (string)request_var('pnp_sendEmail', " ");
+	$post_data['pnp_recEmail']		= (string)request_var('pnp_recEmail', " ");
+// End PNP additions
+
 	if ($config['allow_topic_notify'] && $user->data['is_registered'])
 	{
 		$notify = (isset($_POST['notify'])) ? true : false;
@@ -999,6 +1017,74 @@ if ($submit || $preview || $refresh)
 
 	// Grab md5 'checksum' of new message
 	$message_md5 = md5($message_parser->message);
+
+	// PNP addition to validate Zip Code 
+	        if ($pnptransport)
+			{
+	                $sql = 'SELECT city  
+					FROM zipcodes
+					WHERE zip = "' . $db->sql_escape($post_data['pnp_sendZip']) . '"';
+				$result = $db->sql_query_limit($sql, 1);
+				$confirm_row = $db->sql_fetchrow($result);
+	                        if (empty($confirm_row['city']))
+				{
+					$error[] = "Invalid Sending Zip Code (" . $post_data['pnp_sendZip'] . ")";
+				}
+	                        else
+	                        {
+	                          $pnp_city = true;
+	                        }
+	                $sql = 'SELECT city  
+					FROM zipcodes
+					WHERE zip = "' . $db->sql_escape($post_data['pnp_recZip']) . '"';
+				$result = $db->sql_query_limit($sql, 1);
+				$confirm_row = $db->sql_fetchrow($result);
+	                        if (empty($confirm_row['city']))
+				{
+					$error[] = "Invalid Receiving Zip Code (" . $post_data['pnp_recZip'] . ")";
+				}
+	                        else
+	                        {
+	                          $pnp_city = true;
+	                        }
+				$db->sql_freeresult($result);
+			}
+	        if ($pnpflight)
+			{
+			$aptid = strtoupper($db->sql_escape($post_data['pnp_sendName']));
+	                $sql = 'SELECT apt_id, city  
+					FROM airports
+					WHERE apt_id = "' . $aptid . '" or apt_id = "K' . $aptid . '"';
+				$result = $db->sql_query_limit($sql, 1);
+				$confirm_row = $db->sql_fetchrow($result);
+	                        if (empty($confirm_row['city']))
+				{
+					$error[] = "Invalid From Airport ID(" . $post_data['pnp_sendName'] . ")";
+				}
+	                        else
+	                        {
+	                          $pnp_city = true;
+				  $post_data['pnp_sendName'] = $confirm_row['apt_id'];
+	                        }
+			$aptid = strtoupper($db->sql_escape($post_data['pnp_recName']));
+	                $sql = 'SELECT apt_id, city  
+					FROM airports
+					WHERE apt_id = "' . $aptid . '" or apt_id = "K' . $aptid . '"';
+				$result = $db->sql_query_limit($sql, 1);
+				$confirm_row = $db->sql_fetchrow($result);
+	                        if (empty($confirm_row['city']))
+				{
+					$error[] = "Invalid From Airport ID(" . $post_data['pnp_recName'] . ")";
+				}
+	                        else
+	                        {
+	                          $pnp_city = true;
+				  $post_data['pnp_recName'] = $confirm_row['apt_id'];
+	                       }
+				$db->sql_freeresult($result);
+			}
+
+	// End PNP addition to validate Zip Code
 
 	// If editing and checksum has changed we know the post was edited while we're editing
 	// Notify and show user the changed post
@@ -1404,6 +1490,16 @@ if ($submit || $preview || $refresh)
 
 				'topic_visibility'			=> (isset($post_data['topic_visibility'])) ? $post_data['topic_visibility'] : false,
 				'post_visibility'			=> (isset($post_data['post_visibility'])) ? $post_data['post_visibility'] : false,
+// PNP Additions
+                'pnp_sendZip'			=> $post_data['pnp_sendZip'],
+				'pnp_recZip'			=> $post_data['pnp_recZip'],
+				'pnp_sendName'			=> $post_data['pnp_sendName'],
+				'pnp_recName'			=> $post_data['pnp_recName'],
+				'pnp_sendPhone'			=> $post_data['pnp_sendPhone'],
+				'pnp_recPhone'			=> $post_data['pnp_recPhone'],
+				'pnp_sendEmail'			=> $post_data['pnp_sendEmail'],
+				'pnp_recEmail'			=> $post_data['pnp_recEmail']
+// End PNP Additions
 			);
 
 			if ($mode == 'edit')
@@ -1861,6 +1957,19 @@ $page_data = array(
 	'S_HIDDEN_FIELDS'		=> $s_hidden_fields,
 	'S_ATTACH_DATA'			=> json_encode($message_parser->attachment_data),
 	'S_IN_POSTING'			=> true,
+	// PNP additions
+		'S_PNP_5K'			=> $pnp5k,
+	    'S_PNP_TRANSPORT'   => $pnptransport,
+	    'S_PNP_FLIGHT'      => $pnpflight,
+		'PNP_SENDZIP'		=> $post_data['pnp_sendZip'],
+		'PNP_RECZIP'		=> $post_data['pnp_recZip'],
+		'PNP_SENDNAME'		=> $post_data['pnp_sendName'],
+		'PNP_RECNAME'		=> $post_data['pnp_recName'],
+		'PNP_SENDPHONE'		=> $post_data['pnp_sendPhone'],
+		'PNP_RECPHONE'		=> $post_data['pnp_recPhone'],
+		'PNP_SENDEMAIL'		=> $post_data['pnp_sendEmail'],
+		'PNP_RECEMAIL'		=> $post_data['pnp_recEmail'],
+	// End PNP additions
 );
 
 // Build custom bbcodes array
