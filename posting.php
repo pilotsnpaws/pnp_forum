@@ -251,8 +251,7 @@ $post_id	= (!empty($post_data['post_id'])) ? (int) $post_data['post_id'] : (int)
 // Start PNP changes:  Boolean for if a the current forum is a transfers enabled thread or not
 	$pnpflight = (($forum_id == 29 ) && ($mode == 'post' || ($mode == 'edit' && $post_data['topic_first_post_id'] == $post_data['post_id'])));
 	$pnp5k = (($forum_id == 15 ) && ($mode == 'post' || ($mode == 'edit' && $post_data['topic_first_post_id'] == $post_data['post_id'])));
-	$pnptransport = (($forum_id == 5 ) && ($mode == 'post' || ($mode == 'edit' && $post_data['topic_first_post_id'] == 
-$post_data['post_id'])));
+	$pnptransport = (($forum_id == 5 ) && ($mode == 'post' || ($mode == 'edit' && $post_data['topic_first_post_id'] == $post_data['post_id'])));
 // End PNP changes
 
 // Need to login to passworded forum first?
