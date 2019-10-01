@@ -74,6 +74,81 @@
 	<!-- EVENT viewtopic_body_pagination_top_after -->
 </div>
 
+<!--Start PNP additions -->
+
+<!-- IF S_PNP_5K -->
+	<div class="panel">
+		<div class="inner"><span class="corners-top"><span></span></span>
+		<div class="content">
+		
+		Sending Zip Code:  {PNP_SENDZIP} <br />
+		Receiving Zip Code:  {PNP_RECZIP} <br />
+		Sending Name:  {PNP_SENDNAME} <br />
+		Receiving Name:  {PNP_RECNAME} <br />
+		Sending Phone Number:  {PNP_SENDPHONE} <br />
+		Receiving Phone Number:  {PNP_RECPHONE} <br />
+		Sending Email:  {PNP_SENDEMAIL} <br />
+		Receiving Email:  {PNP_RECEMAIL} <br />				
+		</div>
+		<span class="corners-bottom"><span>
+		</span>
+		</span>	
+		</div>
+	</div>
+<!-- ENDIF -->
+
+
+	<!-- IF S_PNP_TRANSPORT -->
+
+		<div class="panel">
+			<div class="inner"><span class="corners-top"><span></span></span>
+
+		<!-- IF PNP_SENDZIP -->
+		<!-- IF PNP_RECZIP -->		
+
+			<div class="content" style="font-size:12px;">
+				Sending Zip Code: <B> {PNP_SENDZIP} </B> | Receiving Zip Code:  <B>{PNP_RECZIP} </B><br />
+				<a href="/maps/maps_single_trip.php?topic={TOPIC_ID}" target="_blank"><span style="color: blue;"><b>Map This 
+Request</b></span></a>	
+				<a href="/maps_more/mapsmore_volunteersZip.php?zipCode={PNP_SENDZIP}" target="_blank"><span style="color: 
+orange;"><b>Pilots near {PNP_SENDZIP}</b></span></a>	
+				<a href="/maps_more/mapsmore_volunteersZip.php?zipCode={PNP_RECZIP}" target="_blank"><span style="color: purple;"><b>Pilots 
+near {PNP_RECZIP}</b></span></a>	
+			<!-- IF PNP_URL -->
+				<a href="{PNP_URL}" target="_blank"><span style="color: green;"><b>Flight Plan using Skyvector</b></span></a>
+				<a href="/maps_more/phpbb_moreoptions.php?fromzip={PNP_SENDZIP}{PNP_RECZIP}" target="_blank"><span style="color: 
+orange;"><b> More Mapping Options</b></span></a>
+			<!-- ENDIF -->
+			<!-- IF SENDWX_URL -->
+				<a href="{SENDWX_URL}" target="_blank"><span style="color: blue;"><b>Sending Weather</b></span></a>
+			<!-- ENDIF -->
+			</div>
+	<!-- ENDIF -->
+	<!-- ENDIF -->
+			
+			<span class="corners-bottom"><span>
+			</span>
+		</span>
+		</div>
+	</div>
+	<!-- ENDIF -->
+
+	<!-- IF S_PNP_FLIGHT -->
+		<div class="panel">
+		<div class="inner"><span class="corners-top"><span></span></span>
+		<div class="content">
+		
+		From Airport ID:  {PNP_SENDNAME} <br />
+		To Airport ID:  {PNP_RECNAME} <br />
+		Expires: {PNP_SENDPHONE} <br />
+		</div>
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+	<!-- ENDIF -->
+
+<!-- End PNP additions -->
+
+
 <!-- EVENT viewtopic_body_poll_before -->
 
 <!-- IF S_HAS_POLL -->
