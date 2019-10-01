@@ -4572,7 +4572,6 @@ function page_header($page_title = '', $display_online_list = false, $item_id = 
 		'T_JQUERY_LINK'			=> !empty($config['allow_cdn']) && !empty($config['load_jquery_url']) ? $config['load_jquery_url'] : "{$web_path}assets/javascript/jquery.min.js?assets_version=" . $config['assets_version'],
 		'S_ALLOW_CDN'			=> !empty($config['allow_cdn']),
 		'S_COOKIE_NOTICE'		=> !empty($config['cookie_notice']),
-
 		'T_THEME_NAME'			=> rawurlencode($user->style['style_path']),
 		'T_THEME_LANG_NAME'		=> $user->lang_name,
 		'T_TEMPLATE_NAME'		=> $user->style['style_path'],
@@ -4584,8 +4583,15 @@ function page_header($page_title = '', $display_online_list = false, $item_id = 
 		'T_ICONS'				=> $config['icons_path'],
 		'T_RANKS'				=> $config['ranks_path'],
 		'T_UPLOAD'				=> $config['upload_path'],
-
 		'SITE_LOGO_IMG'			=> $user->img('site_logo'),
+
+// PNP additions start
+        'U_PILOT'           => append_sid("{$phpbb_root_path}faq.$phpEx", 'mode=pilot'),
+        'U_RESCUE'          => append_sid("{$phpbb_root_path}faq.$phpEx", 'mode=rescue'),
+        'S_HIDE_PILOTMOD'   => $auth->acl_get('u_pilotpage_mod'),
+        'S_HIDE_RESCUEMOD'  => $auth->acl_get('u_rescuepage_mod'),
+        'S_USER_EMAIL'      => $user->data['user_email'],
+// PNP additions end
 	));
 
 	$http_headers = array();
