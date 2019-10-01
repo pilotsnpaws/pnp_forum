@@ -149,7 +149,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .site_logo {
-	background-image: url("./images/site_logo.gif");
+	background-image: url("./images/pnplogo2016.png");
 }
 
 /* Horizontal lists
@@ -743,6 +743,17 @@ Colours and backgrounds for buttons.css
 .topic_unread_hot_mine				{ background-image: url("./images/topic_unread_hot_mine.gif"); }
 .topic_unread_locked				{ background-image: url("./images/topic_unread_locked.gif"); }
 .topic_unread_locked_mine			{ background-image: url("./images/topic_unread_locked_mine.gif"); }
+
+/* PNP changes start for Icons ----------------- */
+.icon-pin							{ background-image: url("./images/icon_pin.gif"); }
+.icon-map							{ background-image: url("./images/icon_map.gif"); }
+.icon-faq							{ background-image: url("./images/icon_faq.gif"); }
+.icon-pilot							{ background-image: url("./images/icon_pilot.gif"); }
+.icon-rescue						{ background-image: url("./images/icon_rescue.gif"); }
+.icon-home							{ background-image: url("./images/icon_home.gif"); }
+.icon-search-pilots-AID				{ background-image: url("./images/icon_search_pilots_AID.gif"); }
+.icon-search-pilots-zip				{ background-image: url("./images/icon_search_pilots_zip.gif"); }
+/* End PNP changes end for Icons ----------- */
 
 
 /*
