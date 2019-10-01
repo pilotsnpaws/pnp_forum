@@ -341,6 +341,83 @@ if ($post_id)
 $topic_id = (int) $topic_data['topic_id'];
 $topic_replies = $phpbb_content_visibility->get_count('topic_posts', $topic_data, $forum_id) - 1;
 
+// Start PNP changes 
+	//$pnp5k = (int) $topic_data['pnp_Transfer'];
+	// TODO What is pnp5k? Been here for years unsure why 5l?
+	$pnp5k = 0;
+	if ( $forum_id == 15 ) $pnp5k = 1;
+	//$pnp5k = 1;
+	if ( $forum_id == 5 ) $pnptransport = 1;
+	$pnpflight = 0;
+	if ( $forum_id == 29 ) $pnpflight = 1;
+	$pnp_sendZip = ($pnpflight != 0 || $pnptransport != 0) ? $topic_data['pnp_sendZip'] : 0;
+	$pnp_recZip = ($pnpflight != 0 || $pnptransport != 0) ? $topic_data['pnp_recZip'] : 0;
+	$pnp_sendName = ($pnpflight != 0) ? $topic_data['pnp_sendName'] : 0;
+	$pnp_recName = ($pnpflight != 0) ? $topic_data['pnp_recName'] : 0;
+	$pnp_sendPhone = ($pnpflight != 0) ? $topic_data['pnp_sendPhone'] : 0;
+	$pnp_recPhone = ($pnp5k != 0) ? $topic_data['pnp_recPhone'] : 0;
+	$pnp_sendEmail = ($pnp5k != 0) ? $topic_data['pnp_sendEmail'] : 0;
+	$pnp_recEmail = ($pnp5k != 0) ? $topic_data['pnp_recEmail'] : 0;
+	$pnp_url = "";
+	$sendWx_url = "";
+	$pnpfromtotext = "";
+	if ( $forum_id == 5 ) {
+	$pnpres = $db->sql_query('SELECT Concat( "<br>From " , f.city,", ",f.state,"(",f.zip,")" ," to 
+	",t.city,", ",t.state,"(",t.zip,")") as pnpfttext from zipcodes f,zipcodes t where f.zip = "' . 
+	$pnp_sendZip . '" and t.zip = "' . $pnp_recZip . '"');
+	if ($pnpres)
+	{
+	$fromtores = $db->sql_fetchrow($pnpres);
+	// pnpfromtotext is used in the title display, see line 835 here
+	// also see https://github.com/pilotsnpaws/pnp_forum/issues/7 to camel case
+	$pnpfromtotext = $fromtores['pnpfttext'];
+	$db->sql_freeresult($pnpres);
+	}
+	$sql = 'select 
+	concat("http://www.skyvector.com/?ll=",f.lat,",",f.lon,"&zoom=3&plan=G.",f.lat,",",f.lon,":G.",t.lat,",",t.lon) 
+	pnp_url,
+			concat("http://forecast.weather.gov/MapClick.php?lat=",f.lat,"&lon=",f.lon) as 
+	sendWx_url
+			 from zipcodes f, zipcodes t where f.zip = "' . $pnp_sendZip . '" and t.zip = "' 
+	. $pnp_recZip . '"';
+	$result = $db->sql_query($sql);
+			while ($row = $db->sql_fetchrow($result))
+			{
+				$pnp_url = $row['pnp_url'];
+				$sendWx_url = $row['sendWx_url'];
+			}
+			$db->sql_freeresult($result);
+	$sql = 'select f.lat as pnp_flat , f.lon as pnp_flon , t.lat as pnp_tlat , t.lon as pnp_tlon 
+	from zipcodes f, zipcodes t where f.zip = "' . $pnp_sendZip . '" and t.zip = "' . $pnp_recZip . 
+	'"'; 
+	$result = $db->sql_query($sql);
+				$pnp_flat = "0";
+				$pnp_flon = "0";
+				$pnp_tlat = "0";
+				$pnp_tlon = "0";
+			while ($row = $db->sql_fetchrow($result))
+			{
+				$pnp_flat = $row['pnp_flat'];
+				$pnp_flon = $row['pnp_flon'];
+				$pnp_tlat = $row['pnp_tlat'];
+				$pnp_tlon = $row['pnp_tlon'];
+			}
+			$db->sql_freeresult($result);
+	}
+	if ( $forum_id == 29 ) {
+	$pnpres = $db->sql_query('SELECT Concat( "<br>From " , f.city,", ",f.state,"(",f.apt_id,")" ," 
+	To ",t.city,", ",t.state,"(",t.apt_id,")") as pnpfttext from airports f,airports t where 
+	f.apt_id = "' . $pnp_sendName . '" and t.apt_id = "' . $pnp_recName . '"');
+	if ($pnpres)
+	{
+	$fromtores = $db->sql_fetchrow($pnpres);
+	$pnpfromtotext = $fromtores['pnpfttext'];
+	$db->sql_freeresult($pnpres);
+	}
+	}
+// End PNP changes
+
+
 // Check sticky/announcement/global  time limit
 if (($topic_data['topic_type'] != POST_NORMAL) && $topic_data['topic_time_limit'] && ($topic_data['topic_time'] + $topic_data['topic_time_limit']) < time())
 {
@@ -751,7 +828,34 @@ $template->assign_vars(array(
 	'FORUM_NAME' 	=> $topic_data['forum_name'],
 	'FORUM_DESC'	=> generate_text_for_display($topic_data['forum_desc'], $topic_data['forum_desc_uid'], $topic_data['forum_desc_bitfield'], $topic_data['forum_desc_options']),
 	'TOPIC_ID' 		=> $topic_id,
-	'TOPIC_TITLE' 	=> $topic_data['topic_title'],
+// Begin PNP change
+// Original TOPIC_TITLE below line. We comment that out and replace. 
+// 'TOPIC_TITLE' 	=> $topic_data['topic_title'],
+// we append the from to text, like "From ORLANDO, FL to DAYTON, OH"
+// pnpfromtotext is composed below, around line 344 
+	'TOPIC_TITLE' 	=> $topic_data['topic_title'] . $pnpfromtotext,
+// get the fields for other stuff. TODO define each here, as some aren't used anymore
+	'PNP_SENDZIP'		=> $pnp_sendZip,
+	'PNP_RECZIP'		=> $pnp_recZip,
+	'PNP_FLAT'		=> $pnp_flat,
+	'PNP_FLON'		=> $pnp_flon,
+	'PNP_TLAT'		=> $pnp_tlat,
+	'PNP_TLON'		=> $pnp_tlon,
+	// unsure what expire date is? //Mike
+	// 'PNP_EXPIREDATE'        => $pnp_expiredate,
+	'PNP_SENDNAME'		=> $pnp_sendName,
+	'PNP_RECNAME'		=> $pnp_recName,
+	'PNP_SENDPHONE'		=> $pnp_sendPhone,
+	'PNP_RECPHONE'		=> $pnp_recPhone,
+	'PNP_SENDEMAIL'		=> $pnp_sendEmail,
+	'PNP_RECEMAIL'		=> $pnp_recEmail,
+	'S_PNP_5K'	        => $pnp5k,
+	'S_PNP_TRANSPORT'   => $pnptransport,
+    'S_PNP_FLIGHT'      => $pnpflight,
+    'PNP_URL'           => $pnp_url,
+    'SENDWX_URL'        => $sendWx_url,
+// End PNP change
+
 	'TOPIC_POSTER'	=> $topic_data['topic_poster'],
 
 	'TOPIC_AUTHOR_FULL'		=> get_username_string('full', $topic_data['topic_poster'], $topic_data['topic_first_poster_name'], $topic_data['topic_first_poster_colour']),
