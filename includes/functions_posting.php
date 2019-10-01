@@ -1732,14 +1732,14 @@ function submit_post($mode, $subject, $username, $topic_type, &$poll_ary, &$data
 				'topic_status'				=> (isset($data_ary['topic_status'])) ? $data_ary['topic_status'] : ITEM_UNLOCKED,
 
 			// PNP additions 1/2
-			    'pnp_sendZip' => ($data['pnp_sendZip'] == 0) ? NULL : $data['pnp_sendZip'],
-			    'pnp_recZip'  => ($data['pnp_recZip'] == 0) ? NULL : $data['pnp_recZip'],
-			    'pnp_sendName'  => ($data['pnp_sendName'] == " ") ? NULL : $data['pnp_sendName'],
-			    'pnp_recName' => ($data['pnp_recName'] == " ") ? NULL : $data['pnp_recName'],
-			    'pnp_sendPhone' => ($data['pnp_sendPhone'] == 0) ? NULL : $data['pnp_sendPhone'],
-			    'pnp_recPhone'  => ($data['pnp_recPhone'] == 0) ? NULL : $data['pnp_recPhone'],
-			    'pnp_sendEmail' => ($data['pnp_sendEmail'] == " ") ? NULL : $data['pnp_sendEmail'],
-			    'pnp_recEmail'  => ($data['pnp_recEmail'] == " ") ? NULL : $data['pnp_recEmail'],
+			    'pnp_sendZip' => ($data_ary['pnp_sendZip'] == 0) ? NULL : $data_ary['pnp_sendZip'],
+			    'pnp_recZip'  => ($data_ary['pnp_recZip'] == 0) ? NULL : $data_ary['pnp_recZip'],
+			    'pnp_sendName'  => ($data_ary['pnp_sendName'] == " ") ? NULL : $data_ary['pnp_sendName'],
+			    'pnp_recName' => ($data_ary['pnp_recName'] == " ") ? NULL : $data_ary['pnp_recName'],
+			    'pnp_sendPhone' => ($data_ary['pnp_sendPhone'] == 0) ? NULL : $data_ary['pnp_sendPhone'],
+			    'pnp_recPhone'  => ($data_ary['pnp_recPhone'] == 0) ? NULL : $data_ary['pnp_recPhone'],
+			    'pnp_sendEmail' => ($data_ary['pnp_sendEmail'] == " ") ? NULL : $data_ary['pnp_sendEmail'],
+			    'pnp_recEmail'  => ($data_ary['pnp_recEmail'] == " ") ? NULL : $data_ary['pnp_recEmail'],
 			// End PNP additions 1/2
 
 			);
@@ -1844,14 +1844,14 @@ function submit_post($mode, $subject, $username, $topic_type, &$poll_ary, &$data
 
 				'topic_attachment'			=> (!empty($data_ary['attachment_data'])) ? 1 : (isset($data_ary['topic_attachment']) ? $data_ary['topic_attachment'] : 0),
 				// PNP additions 2/2
-				    'pnp_sendZip' => ($data['pnp_sendZip'] == 0) ? NULL : $data['pnp_sendZip'],
-				    'pnp_recZip'  => ($data['pnp_recZip'] == 0) ? NULL : $data['pnp_recZip'],
-				    'pnp_sendName'  => ($data['pnp_sendName'] == " ") ? NULL : $data['pnp_sendName'],
-				    'pnp_recName' => ($data['pnp_recName'] == " ") ? NULL : $data['pnp_recName'],
-				    'pnp_sendPhone' => ($data['pnp_sendPhone'] == 0) ? NULL : $data['pnp_sendPhone'],
-				    'pnp_recPhone'  => ($data['pnp_recPhone'] == 0) ? NULL : $data['pnp_recPhone'],
-				    'pnp_sendEmail' => ($data['pnp_sendEmail'] == " ") ? NULL : $data['pnp_sendEmail'],
-				    'pnp_recEmail'  => ($data['pnp_recEmail'] == " ") ? NULL : $data['pnp_recEmail'],
+				    'pnp_sendZip' => ($data_ary['pnp_sendZip'] == 0) ? NULL : $data_ary['pnp_sendZip'],
+				    'pnp_recZip'  => ($data_ary['pnp_recZip'] == 0) ? NULL : $data_ary['pnp_recZip'],
+				    'pnp_sendName'  => ($data_ary['pnp_sendName'] == " ") ? NULL : $data_ary['pnp_sendName'],
+				    'pnp_recName' => ($data_ary['pnp_recName'] == " ") ? NULL : $data_ary['pnp_recName'],
+				    'pnp_sendPhone' => ($data_ary['pnp_sendPhone'] == 0) ? NULL : $data_ary['pnp_sendPhone'],
+				    'pnp_recPhone'  => ($data_ary['pnp_recPhone'] == 0) ? NULL : $data_ary['pnp_recPhone'],
+				    'pnp_sendEmail' => ($data_ary['pnp_sendEmail'] == " ") ? NULL : $data_ary['pnp_sendEmail'],
+				    'pnp_recEmail'  => ($data_ary['pnp_recEmail'] == " ") ? NULL : $data_ary['pnp_recEmail'],
 				// End PNP additions 2/2
 			);
 

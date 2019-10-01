@@ -879,7 +879,7 @@ if ($submit || $preview || $refresh)
 	$post_data['enable_sig']		= (!$config['allow_sig'] || !$auth->acl_get('f_sigs', $forum_id) || !$auth->acl_get('u_sig')) ? false : ((isset($_POST['attach_sig']) && $user->data['is_registered']) ? true : false);
 
 // PNP additions
-	$post_data['pnp_sendZip']		= request_var('pnp_sendZip', " "); 
+	$post_data['pnp_sendZip']		= (string)request_var('pnp_sendZip', (string)0);
 	$post_data['pnp_recZip']		= (string)request_var('pnp_recZip', (string)0);
 	$post_data['pnp_sendName']		= (string)request_var('pnp_sendName', " ");
 	$post_data['pnp_recName']		= (string)request_var('pnp_recName', " ");
