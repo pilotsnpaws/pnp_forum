@@ -61,13 +61,11 @@
 									<i class="icon fa-group fa-fw" aria-hidden="true"></i><span>{L_MEMBERLIST}</span>
 								</a>
 							</li>
-						<!-- ENDIF -->
-						<!-- IF U_TEAM -->
-							<li>
-								<a href="{U_TEAM}" role="menuitem">
-									<i class="icon fa-shield fa-fw" aria-hidden="true"></i><span>{L_THE_TEAM}</span>
-								</a>
-							</li>
+<!-- PNP addition start to add search by airport/pilot quick links --> 
+					<li class="small-icon icon-search-pilots-AID"><a href="https://pilotsnpaws.org/maps_more/mapsmore_volunteersAirport.php" role="menuitem">{L_SEARCH_PILOTS_AID}</a></li>
+					<li class="small-icon icon-search-pilots-zip"><a href="https://pilotsnpaws.org/maps_more/mapsmore_volunteersZip.php" role="menuitem">{L_SEARCH_PILOTS_ZIP}</a></li>
+							<li class="separator"></li>
+<!-- PNP addition end --> 
 						<!-- ENDIF -->
 					<!-- ENDIF -->
 					<li class="separator"></li>
@@ -98,6 +96,30 @@
 				</a>
 			</li>
 		<!-- ENDIF -->
+
+<!-- PNP additions -->
+		<li class="small-icon icon-rescue" 
+			<!-- IF not S_USER_LOGGED_IN -->data-skip-responsive="true"
+			<!-- ELSE -->data-last-responsive="true"<!-- ENDIF -->>
+			<a href="/forum/faq.php?mode=rescue" rel="help" title="{L_RESCUE_EXPLAIN}" role="menuitem">{L_RESCUE}</a>
+		</li>
+
+		<li class="small-icon icon-pilot" 
+		<!-- IF not S_USER_LOGGED_IN -->data-skip-responsive="true"<!-- ELSE -->data-last-responsive="true"<!-- ENDIF -->>
+		<a href="/forum/faq.php?mode=pilot" rel="help" title="{L_PILOT_EXPLAIN}" role="menuitem">{L_PILOT}</a>
+		</li>
+
+		<li class="small-icon icon-map">
+		<a href="/maps/maps_trips.php" target="_blank" title="Map of active transport requests" role="menuitem">{L_MAP}</a>
+		</li>
+		
+		<li class="small-icon icon-pin">
+			<a href="/maps/maps_volunteers.php" target="_blank" title="Find pilots, fosters and other volunteers" role="menuitem">
+			{L_VOLUNTEERS}
+			</a>
+		</li>
+<!-- End PNP additions -->
+
 
 	<!-- IF S_REGISTERED_USER -->
 		<!-- EVENT navbar_header_user_profile_prepend -->
