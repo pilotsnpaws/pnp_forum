@@ -48,6 +48,27 @@ $lang = array_merge($lang, array(
 	'DATETIME_FORMAT'	=> '|F jS, Y, g:i a|',	// January 1st, 2007, 1:37 pm (with Relative days enabled)
 	'USER_LANG'			=> 'en-us',
 
+// PNP additions
+	'MAP'					=> 'Transport Map',
+	'VOLUNTEERS'			=> 'Volunteer Map',
+	'NO_VIEW_PILOT_MOD'		=> 'You are not authorized to view the pilot instructions page. Please contact the site administrator for more information',
+	'NO_VIEW_RESCUE_MOD'	=> 'You are not authorized to view the rescue instructions page. Please contact the site administrator for more information',
+	'PILOT_EXPLAIN'			=> 'Pilot instructions',
+	'PILOT'					=> 'Pilot FAQ',
+	'PILOT_PAGE'            => 'Pilot instructions',
+	'RESCUE_EXPLAIN'		=> 'Rescue instructions',
+	'RESCUE'				=> 'Rescue FAQ',
+	'RESCUE_PAGE'         	=> 'Rescue instructions',
+	'SEARCH_PILOTS_AID'		=> 'Find pilots by airport',
+	'SEARCH_PILOTS_ZIP'		=> 'Find pilots by zipcode',
+// End PNP additions
+// PNP Addition for forgot username mod
+//-- mod : Forgot username ------------------------------------------------------------
+//-- add
+	'FORGOT_USERNAME'		=> 'I forgot my username',
+//-- fin mod : Forgot username --------------------------------------------------------
+
+
 	// You can define different rules for the determination of plural forms here.
 	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
