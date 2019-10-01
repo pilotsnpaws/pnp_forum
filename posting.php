@@ -879,7 +879,7 @@ if ($submit || $preview || $refresh)
 	$post_data['enable_sig']		= (!$config['allow_sig'] || !$auth->acl_get('f_sigs', $forum_id) || !$auth->acl_get('u_sig')) ? false : ((isset($_POST['attach_sig']) && $user->data['is_registered']) ? true : false);
 
 // PNP additions
-	$post_data['pnp_sendZip']		= (string)request_var('pnp_sendZip', (string)0); 
+	$post_data['pnp_sendZip']		= request_var('pnp_sendZip', " "); 
 	$post_data['pnp_recZip']		= (string)request_var('pnp_recZip', (string)0);
 	$post_data['pnp_sendName']		= (string)request_var('pnp_sendName', " ");
 	$post_data['pnp_recName']		= (string)request_var('pnp_recName', " ");
@@ -1956,19 +1956,19 @@ $page_data = array(
 	'S_HIDDEN_FIELDS'		=> $s_hidden_fields,
 	'S_ATTACH_DATA'			=> json_encode($message_parser->attachment_data),
 	'S_IN_POSTING'			=> true,
-	// PNP additions
-		'S_PNP_5K'			=> $pnp5k,
-	    'S_PNP_TRANSPORT'   => $pnptransport,
-	    'S_PNP_FLIGHT'      => $pnpflight,
-		'PNP_SENDZIP'		=> $post_data['pnp_sendZip'],
-		'PNP_RECZIP'		=> $post_data['pnp_recZip'],
-		'PNP_SENDNAME'		=> $post_data['pnp_sendName'],
-		'PNP_RECNAME'		=> $post_data['pnp_recName'],
-		'PNP_SENDPHONE'		=> $post_data['pnp_sendPhone'],
-		'PNP_RECPHONE'		=> $post_data['pnp_recPhone'],
-		'PNP_SENDEMAIL'		=> $post_data['pnp_sendEmail'],
-		'PNP_RECEMAIL'		=> $post_data['pnp_recEmail'],
-	// End PNP additions
+// PNP additions
+	'S_PNP_5K'			=> $pnp5k,
+    'S_PNP_TRANSPORT'   => $pnptransport,
+    'S_PNP_FLIGHT'      => $pnpflight,
+	'PNP_SENDZIP'		=> $post_data['pnp_sendZip'],
+	'PNP_RECZIP'		=> $post_data['pnp_recZip'],
+	'PNP_SENDNAME'		=> $post_data['pnp_sendName'],
+	'PNP_RECNAME'		=> $post_data['pnp_recName'],
+	'PNP_SENDPHONE'		=> $post_data['pnp_sendPhone'],
+	'PNP_RECPHONE'		=> $post_data['pnp_recPhone'],
+	'PNP_SENDEMAIL'		=> $post_data['pnp_sendEmail'],
+	'PNP_RECEMAIL'		=> $post_data['pnp_recEmail'],
+// End PNP additions
 );
 
 // Build custom bbcodes array
