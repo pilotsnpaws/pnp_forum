@@ -894,6 +894,33 @@ if (count($topic_list))
 	{
 		$row = &$rowset[$topic_id];
 
+// PNP additions start
+
+$pnpFromToText = "";
+if ( $forum_id == 5 ) {
+  $pnpres = $db->sql_query('SELECT Concat( "<br>From " , f.city,", ",f.state,"(",f.zip,")" ," to ",t.city,", "'
+    . ',t.state,"(",t.zip,")") as pnpfttext from zipcodes f,zipcodes t where f.zip = "'
+    . $row['pnp_sendZip'] . '" and t.zip = "' . $row['pnp_recZip'] . '"');
+  if ($pnpres) {
+      $fromtores = $db->sql_fetchrow($pnpres);
+      $pnpFromToText = $fromtores['pnpfttext'];
+      $db->sql_freeresult($pnpres);
+    }
+  }
+if ( $forum_id == 29 ) {
+$pnpres = $db->sql_query('SELECT Concat( "<br>Space available From " , f.city,", ",f.state,"(",'
+  . 'f.apt_id,")" ," to ",t.city,", ",t.state,"(",t.apt_id,")") as pnpfttext from airports f,'
+  . ' airports t where f.apt_id = "' . $row['pnp_sendName']  . '" and t.apt_id = "' . $row['pnp_recName'] . '"');
+if ($pnpres)
+  {
+    $fromtores = $db->sql_fetchrow($pnpres);
+    $pnpFromToText = $fromtores['pnpfttext'];
+    $db->sql_freeresult($pnpres);
+  }
+}
+
+// PNP additions end
+
 		$topic_forum_id = ($row['forum_id']) ? (int) $row['forum_id'] : $forum_id;
 
 		// This will allow the style designer to output a different header
@@ -945,7 +972,7 @@ if (count($topic_list))
 
 			'REPLIES'			=> $replies,
 			'VIEWS'				=> $row['topic_views'],
-			'TOPIC_TITLE'		=> censor_text($row['topic_title']),
+			'TOPIC_TITLE'		=> censor_text($row['topic_title']) . $pnpFromToText,
 			'TOPIC_TYPE'		=> $topic_type,
 			'FORUM_NAME'		=> (isset($row['forum_name'])) ? $row['forum_name'] : $forum_data['forum_name'],
 
