@@ -16,6 +16,8 @@ Please visit the following link in order to activate your account:
 
 Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
 
+Activating your account constitutes your agreement to be bound by all of the user terms and conditions. 
+
 Thank you for registering.
 
 {EMAIL_SIG}
