@@ -1,0 +1,102 @@
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c2_convert_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c1_convert_table
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c3_convert_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m2_initial_data
+[DEBUG] Apply dependencies of \phpbb\pages\migrations\v10x\m6_reparser_cron.
+[DEBUG] Installing Schema: \phpbb\pages\migrations\v10x\m6_reparser_cron.
+[INFO] Installed Schema: \phpbb\pages\migrations\v10x\m6_reparser_cron; Time: 0.00 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c2_convert_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c1_convert_table
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c3_convert_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m2_initial_data
+[DEBUG] Apply dependencies of \phpbb\pages\migrations\v10x\m6_reparser_cron.
+[DEBUG] Installing Data: \phpbb\pages\migrations\v10x\m6_reparser_cron.
+[DEBUG] Installing Data: \phpbb\pages\migrations\v10x\m6_reparser_cron; Time: 0.01 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c2_convert_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c1_convert_table
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c3_convert_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m2_initial_data
+[DEBUG] Apply dependencies of \phpbb\pages\migrations\v10x\m6_reparser_cron.
+[DEBUG] Installing Data: \phpbb\pages\migrations\v10x\m6_reparser_cron.
+[INFO] Installed Data: \phpbb\pages\migrations\v10x\m6_reparser_cron; Time: 0.01 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c2_convert_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c1_convert_table
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c3_convert_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m2_initial_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m6_reparser_cron
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m4_initial_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m3_initial_permission
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m5_update_link_names
+[DEBUG] Apply dependencies of \phpbb\pages\migrations\v10x\m7_reparser_cron_update.
+[DEBUG] Installing Schema: \phpbb\pages\migrations\v10x\m7_reparser_cron_update.
+[INFO] Installed Schema: \phpbb\pages\migrations\v10x\m7_reparser_cron_update; Time: 0.00 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c2_convert_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c1_convert_table
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c3_convert_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m2_initial_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m6_reparser_cron
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m4_initial_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m3_initial_permission
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m5_update_link_names
+[DEBUG] Apply dependencies of \phpbb\pages\migrations\v10x\m7_reparser_cron_update.
+[DEBUG] Installing Data: \phpbb\pages\migrations\v10x\m7_reparser_cron_update.
+[DEBUG] Installing Data: \phpbb\pages\migrations\v10x\m7_reparser_cron_update; Time: 0.01 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c2_convert_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c1_convert_table
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c3_convert_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m2_initial_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m6_reparser_cron
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m4_initial_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m3_initial_permission
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m5_update_link_names
+[DEBUG] Apply dependencies of \phpbb\pages\migrations\v10x\m7_reparser_cron_update.
+[DEBUG] Installing Data: \phpbb\pages\migrations\v10x\m7_reparser_cron_update.
+[DEBUG] Installing Data: \phpbb\pages\migrations\v10x\m7_reparser_cron_update; Time: 0.00 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c2_convert_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c1_convert_table
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c3_convert_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m2_initial_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m6_reparser_cron
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m4_initial_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m3_initial_permission
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m5_update_link_names
+[DEBUG] Apply dependencies of \phpbb\pages\migrations\v10x\m7_reparser_cron_update.
+[DEBUG] Installing Data: \phpbb\pages\migrations\v10x\m7_reparser_cron_update.
+[DEBUG] Installing Data: \phpbb\pages\migrations\v10x\m7_reparser_cron_update; Time: 0.01 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c2_convert_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c1_convert_table
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c3_convert_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m2_initial_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m6_reparser_cron
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m4_initial_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m3_initial_permission
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m5_update_link_names
+[DEBUG] Apply dependencies of \phpbb\pages\migrations\v10x\m7_reparser_cron_update.
+[DEBUG] Installing Data: \phpbb\pages\migrations\v10x\m7_reparser_cron_update.
+[INFO] Installed Data: \phpbb\pages\migrations\v10x\m7_reparser_cron_update; Time: 0.02 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c2_convert_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c1_convert_table
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c3_convert_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m2_initial_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m6_reparser_cron
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m4_initial_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m3_initial_permission
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m5_update_link_names
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m7_reparser_cron_update
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m1_initial_schema
+[DEBUG] Apply dependencies of \phpbb\pages\migrations\v20x\m8_font_icons.
+[DEBUG] Installing Schema: \phpbb\pages\migrations\v20x\m8_font_icons.
+[INFO] Installed Schema: \phpbb\pages\migrations\v20x\m8_font_icons; Time: 0.09 seconds
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c2_convert_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c1_convert_table
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\converter\c3_convert_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m2_initial_data
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m6_reparser_cron
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m4_initial_module
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m3_initial_permission
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m5_update_link_names
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m7_reparser_cron_update
+[DEBUG] Migration already effectively installed (skipped): \phpbb\pages\migrations\v10x\m1_initial_schema
+[DEBUG] Apply dependencies of \phpbb\pages\migrations\v20x\m8_font_icons.
+[DEBUG] Installing Data: \phpbb\pages\migrations\v20x\m8_font_icons.
+[INFO] Installed Data: \phpbb\pages\migrations\v20x\m8_font_icons; Time: 0.00 seconds

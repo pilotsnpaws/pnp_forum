@@ -1,0 +1,53 @@
+<!-- INCLUDE overall_header.html -->
+	<h1>{L_ACP_SIMPLECDN_CONFIG} {SIMPLECDN_VERSION}</h1>
+
+	<p>{L_ACP_SIMPLECDN_CONFIG_EXPLAIN}</p>
+
+	<form id="acp_quotes_config" method="post" action="{U_ACTION}">
+
+		<fieldset>
+			<legend>{L_ACP_SIMPLECDN_CONFIG_SET}</legend>
+			<dl>
+				<dt>
+					<label for="simplecdn_enable">{L_SIMPLECDN_ENABLE}{L_COLON}</label><br />
+					<span>{L_SIMPLECDN_ENABLE_EXPLAIN}</span>
+				</dt>
+				<dd>
+					<label><input type="radio" class="radio" name="simplecdn_enable" value="1"<!-- IF SIMPLECDN_ENABLE --> id="simplecdn_enable" checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+					<label><input type="radio" class="radio" name="simplecdn_enable" value="0"<!-- IF not SIMPLECDN_ENABLE --> id="simplecdn_enable" checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+				</dd>
+			</dl>
+
+
+			<dl>
+				<dt>
+					<label for="simplecdn_url">{L_SIMPLECDN_URL}{L_COLON}</label><br />
+					<span>{L_SIMPLECDN_URL_EXPLAIN}</span>
+				</dt>
+				<dd>
+					<input name="simplecdn_url" type="text" id="simplecdn_url" value="{SIMPLECDN_URL}"  placeholder="{L_SIMPLECDN_URL_PLACEHOLDER}" size="40" maxlength="255" />
+				</dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<label for="simplecdn_file_enable">{L_SIMPLECDN_FILE_ENABLE}{L_COLON}</label><br />
+					<span>{L_SIMPLECDN_FILE_ENABLE_EXPLAIN}</span>
+				</dt>
+				<dd>
+					<label><input type="radio" class="radio" name="simplecdn_file_enable" value="1"<!-- IF SIMPLECDN_FILE_ENABLE --> id="simplecdn_file_enable" checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+					<label><input type="radio" class="radio" name="simplecdn_file_enable" value="0"<!-- IF not SIMPLECDN_FILE_ENABLE --> id="simplecdn_file_enable" checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+				</dd>
+			</dl>
+
+			<p class="submit-buttons">
+				<input type="hidden" name="action" value="save" />
+
+				<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+				<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+				{S_FORM_TOKEN}
+			</p>
+		</fieldset>
+	</form>
+
+<!-- INCLUDE overall_footer.html -->

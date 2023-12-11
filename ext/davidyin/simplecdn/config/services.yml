@@ -1,0 +1,10 @@
+services:
+    davidyin.simplecdn.listener:
+        class: davidyin\simplecdn\event\listener
+        arguments:
+            - '@template'
+            - '@config'
+            - '@user'
+            - '@language'
+        tags:
+            - { name: event.listener }

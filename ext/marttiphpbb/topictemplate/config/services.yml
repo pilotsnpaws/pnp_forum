@@ -1,0 +1,24 @@
+services:
+    marttiphpbb.topictemplate.acp_listener:
+        class: marttiphpbb\topictemplate\event\acp_listener
+        arguments:
+            - '@dbal.conn'
+            - '@request'
+            - '@language'
+            - '@marttiphpbb.topictemplate.service.store'
+            - '%tables.forums%'
+        tags:
+            - { name: event.listener }
+
+    marttiphpbb.topictemplate.posting_listener:
+        class: marttiphpbb\topictemplate\event\posting_listener
+        arguments:
+            - '@marttiphpbb.topictemplate.service.store'
+        tags:
+            - { name: event.listener }
+
+    marttiphpbb.topictemplate.service.store:
+        class: marttiphpbb\topictemplate\service\store
+        arguments:
+            - '@config_text'
+            - '@cache.driver'

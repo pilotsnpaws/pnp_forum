@@ -1,0 +1,1204 @@
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\mysql_fulltext_drop.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\mysql_fulltext_drop.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\mysql_fulltext_drop; Time: 0.00 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\namespaces.
+[DEBUG] Installing Schema: \phpbb\db\migration\data\v310\namespaces.
+[INFO] Installed Schema: \phpbb\db\migration\data\v310\namespaces; Time: 0.00 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\namespaces.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\namespaces.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\namespaces; Time: 0.00 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notifications_cron.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notifications.
+[DEBUG] Installing Schema: \phpbb\db\migration\data\v310\notifications.
+[INFO] Installed Schema: \phpbb\db\migration\data\v310\notifications; Time: 0.10 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notifications_cron.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notifications.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notifications.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notifications; Time: 0.02 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notifications_cron.
+[DEBUG] Installing Schema: \phpbb\db\migration\data\v310\notifications_cron.
+[INFO] Installed Schema: \phpbb\db\migration\data\v310\notifications_cron; Time: 0.00 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notifications_cron.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notifications_cron.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notifications_cron; Time: 0.00 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notifications_schema_fix.
+[DEBUG] Installing Schema: \phpbb\db\migration\data\v310\notifications_schema_fix.
+[INFO] Installed Schema: \phpbb\db\migration\data\v310\notifications_schema_fix; Time: 0.35 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notifications_schema_fix.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notifications_schema_fix.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notifications_schema_fix; Time: 0.00 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Schema: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Schema: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.00 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.04 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.03 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.04 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.04 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.04 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.04 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.09 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.08 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.09 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.08 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.09 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.08 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.09 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.09 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.06 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.07 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\notification_options_reconvert.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\notification_options_reconvert.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\notification_options_reconvert; Time: 0.04 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\plupload.
+[DEBUG] Installing Schema: \phpbb\db\migration\data\v310\plupload.
+[INFO] Installed Schema: \phpbb\db\migration\data\v310\plupload; Time: 0.00 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\plupload.
+[DEBUG] Installing Data: \phpbb\db\migration\data\v310\plupload.
+[INFO] Installed Data: \phpbb\db\migration\data\v310\plupload; Time: 0.00 seconds
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\signature_module_auth.
+[DEBUG] Migration already effectively installed (skipped): \phpbb\db\migration\data\v310\signature_module_auth
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_googleplus.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_contact_field.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_on_memberlist.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_cleanup.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_interests.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\profilefield_types.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\alpha1.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\softdelete_mcp_modules.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\softdelete_p2.
+[DEBUG] Apply dependencies of \phpbb\db\migration\data\v310\softdelete_p1.
+[DEBUG] Installing Schema: \phpbb\db\migration\data\v310\softdelete_p1.
+[INFO] Installed Schema: \phpbb\db\migration\data\v310\softdelete_p1; Time: 13.56 seconds
